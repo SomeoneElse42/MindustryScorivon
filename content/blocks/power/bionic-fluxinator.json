@@ -1,7 +1,7 @@
 {
   "type": "HeatCrafter",
   "name": "Bionic Fluxinator",
-  "description": "Produces power flux. Requires heating, compressed air, bioflash and carbon.",
+  "description": "Produces power flux. Requires heating, compressed air, bioflash and chloride.",
   "size": 4,
   "health": 890,
   "squareSprite": false,
@@ -80,10 +80,14 @@
             {
               "liquid": "bioflash",
               "amount": 0.4
-            },
+            }
+          ]
+        },
+        "items": {
+          "items": [
             {
-              "liquid": "carbon",
-              "amount": 0.1
+              "item": "chloride",
+              "amount": 1
             }
           ]
         }
