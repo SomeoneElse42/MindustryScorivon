@@ -1,0 +1,79 @@
+{
+  "type": "GenericCrafter",
+  "name": "Cryogel Mixer",
+  "description": "Mixes Cryogel, a very powerful coolant.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "cryogel",
+    "amount": 0.25
+  },
+  "size": 2,
+  "hasLiquids": "true",
+  "health": 240,
+  "craftTime": 60,
+  "consumes": {
+    "power": 0.5,
+    "items": {
+      "items": [
+          {
+            "item": "chromium",
+            "amount": 1
+          }
+        ]
+        },
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "water",
+              "amount": 0.2
+            },
+            {
+              "liquid": "caldrine",
+              "amount": 0.1
+            }
+          ]
+        }
+  },
+  "itemCapacity": 20,
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "cobalt",
+        "amount": 50
+      },
+    {
+        "item": "silicon",
+        "amount": 50
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "cobalt",
+        "amount": 250
+      },
+    {
+        "item": "silicon",
+        "amount": 250
+     }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "cryogel",
+        "suffix": "-liquid"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

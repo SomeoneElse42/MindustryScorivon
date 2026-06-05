@@ -1,0 +1,7 @@
+type: Floor
+name: "Phosphorous Sandstone"
+variants: 3
+
+attributes: {
+	groundwater: 0.375,
+}

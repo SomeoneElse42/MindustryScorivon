@@ -1,0 +1,11 @@
+{
+"name": "[#9c00c6ff]Chloride",
+  "description": "A highly reactive and combustible material. Used in chemical ammunition, as an oxidizer and catalyst.",
+  "color": "9c00c6", 
+  "hardness": 2,
+  "flammability": 0.2,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "conduit",
+  "name": "Pipeline",
+  "description": "Moves liquids forward.",
+  "health": 120,
+  "liquidPressure": 10,
+  "requirements": [
+    {
+      "item": "chromium",
+      "amount": 2
+    }
+  ],
+  "placeableLiquid": true,
+  "category": "liquid",
+  "research": "core-glint",
+  "bridgeReplacement": "bridge-pipeline",
+  "junctionReplacement": "pipeline-junction"
+}

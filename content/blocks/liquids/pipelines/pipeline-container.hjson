@@ -1,0 +1,21 @@
+type: LiquidRouter
+name: Liquid Cistern
+size: 2
+health: 300
+placeableLiquid: true
+liquidCapacity: 800
+liquidPressure: 10
+squareSprite: false
+liquidPadding: 2
+
+category: liquid
+requirements: [
+	chromium/20
+  obsidium/16
+]
+
+research: pipeline-router
+researchCost: [
+	chromium/120
+  obsidium/80
+]

@@ -1,0 +1,115 @@
+{
+  "type": "GenericCrafter",
+  "name": "Corundum Crystallizer",
+  "description": "Crystallizes alumina into corundum after melting with an oxygen-hydrogen flame.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquids": [
+  ],
+  "outputItem": "corundum/2",
+  "ignoreLiquidFullness": true,
+  "size": 3,
+  "hasLiquids": "true",
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 0.05,
+  "health": 560,
+  "craftTime": 120,
+  "consumes": {
+    "power": 9,
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "hydrogen",
+          "amount": 0.1
+        },
+        {
+          "liquid": "oxygen",
+          "amount": 0.1
+        }
+      ]
+    },
+    "items": {
+      "items": [
+          {
+            "item": "alumina",
+            "amount": 2
+          },
+          {
+            "item": "chromium",
+            "amount": 1
+          }
+      ]
+    }
+  },
+  "itemCapacity": 24,
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "cobalt",
+        "amount": 10
+      },
+    {
+        "item": "obsidium",
+        "amount": 60
+     },
+     {
+        "item": "aerogel",
+        "amount": 10
+     },
+     {
+        "item": "aluminium",
+        "amount": 10
+     },
+    {
+        "item": "chromium",
+        "amount": 20
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "cobalt",
+        "amount": 50
+      },
+    {
+        "item": "obsidium",
+        "amount": 300
+     },
+     {
+        "item": "aerogel",
+        "amount": 50
+     },
+     {
+        "item": "aluminium",
+        "amount": 50
+     },
+    {
+        "item": "chromium",
+        "amount": 100
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "oxygen",
+        "padding": 2,
+        "alpha": 0.5
+      },
+      {
+        "type": "DrawCrucibleFlame",
+          "midColor": "ff8171",
+          "flameColor": "ff194d"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

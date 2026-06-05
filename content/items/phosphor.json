@@ -1,0 +1,12 @@
+{
+"name": "[#ceff63ff]Phosphor",
+  "description": "A flammable and explosive material that glows in the dark.",
+  "details": "Large amounts of phosphor is contained in the sandstone in large deserts on Scorivon. Most likely, there used to be oceans of water in there filled to the brim with algae, which produce phosphor naturally. These nearly went extinct as Scorivon heated up.",
+  "color": "ceff63", 
+  "hardness": 2,
+  "flammability": 1,
+  "explosiveness": 0.8,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

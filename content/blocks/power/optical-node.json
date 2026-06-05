@@ -1,0 +1,33 @@
+{
+  "type": "PowerNode",
+  "health": "20",
+  "laserRange": 10,
+  "maxNodes": 10,
+  "name": "Optical Node",
+  "description": "Connects power structures together with beams of light.",
+  "squareSprite": "false",
+  "requirements": [
+    {
+        "item": "cobalt",
+        "amount": 3
+      },
+    {
+        "item": "chromium",
+        "amount": 5
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "cobalt",
+        "amount": 15
+      },
+    {
+        "item": "chromium",
+        "amount": 25
+     }
+  ],
+  "category": "power",
+  "powerCapacity": "1000",
+  "laserColor1": "f1c3ff",
+  "laserColor2": "e79aff"
+}

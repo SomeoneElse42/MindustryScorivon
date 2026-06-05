@@ -1,0 +1,60 @@
+{
+  "type": "GenericCrafter",
+  "name": "Centrifuge",
+  "description": "Spins the suspended sludge around to separate it.",
+  "size": 3,
+  "health": 220,
+  "squareSprite": false,
+  "ignoreLiquidFullness": true,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "cobalt/80",
+    "silicon/40",
+    "obsidium/100",
+    "chromium/20"
+  ],
+  "researchCost": [
+    "cobalt/400",
+    "silicon/200",
+    "obsidium/500",
+    "chromium/100"
+  ],
+  "craftEffect": "steam",
+  "research": "core-glint",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 10
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopMachineSpin",
+  "ambientSoundVolume": 1,
+  "hasLiquids": true,
+  "outputItems": ["sand/3", "residue/3"],
+  "outputLiquid": {
+    "liquid": "water",
+    "amount": 0.15
+  },
+  "consumes": {
+    "power": 1.5,
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "sludge",
+          "amount": 0.2
+        }
+      ]
+    }
+  },
+  "liquidCapacity": 50
+}
+

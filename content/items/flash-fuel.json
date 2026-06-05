@@ -1,0 +1,11 @@
+{
+"name": "[#d1ea9bff]Flash Fuel",
+  "description": "A highly flammable and slightly explosive fuel that combusts very rapidly. Used in weapons, production and power generation.",
+  "color": "d1ea9b", 
+  "hardness": 1,
+  "flammability": 1.2,
+  "explosiveness": 0.1,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

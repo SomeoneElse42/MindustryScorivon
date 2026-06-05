@@ -1,0 +1,62 @@
+type: legs
+
+name: Sentinel
+description: Protects the Glint core. Shoots a laser that can light enemies on fire.
+speed: 1
+accel: 0.5
+drag: 0.3
+health: 300
+hitSize: 14
+itemCapacity: 60
+faceTarget: true
+outlineColor: 303541ff
+
+mineTier: 3
+mineWalls: true
+mineFloor: true
+mineRange: 100
+mineSpeed: 6
+buildRange: 150
+buildSpeed: 1
+
+legCount: 4
+legLength: 14f
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 5
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 0.7
+legMoveSpace: 1
+hovering: true
+fogRadius: 0
+
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 2
+    reload: 30
+    recoil: 1
+    inaccuracy: 0
+    shootSound: blaster
+    bullet: {
+      type: ContinuousLaserBulletType
+      fadeTime: 5
+      colors: [dbff00, f1ff98, f9ffd6, ffffff]
+      width: 1
+      frontLength: 40
+      backLength:10
+      damage: 5
+      buildingDamageMultiplier: 0.01
+    }
+  }
+ ] 
+
+research: core-glint
+alwaysUnlocked: true
+immunities: [
+  "burning"
+]

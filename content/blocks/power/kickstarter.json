@@ -1,0 +1,83 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Kickstarter",
+  "description": "Releases the charge of a kickstart core to immediately output it as power. Used to set up power on new sectors.",
+  "category": "power",
+  "ambientSound": "hum",
+  "ambientSoundVolume": 0.1,
+  "powerProduction": 20,
+  "consumes": {
+    "items": {
+      "items": [
+          {
+            "item": "kickstart-core",
+            "amount": 1
+          }
+        ]
+      },
+    "liquids": {
+      "liquids": [
+      ]
+    }
+  },
+  "itemDuration": 60,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 100
+      },
+    {
+        "item": "aerogel",
+        "amount": 20
+      },
+    {
+        "item": "chromium",
+        "amount": 40
+     },
+     {
+        "item": "voltite",
+        "amount": 20
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 500
+      },
+    {
+        "item": "aerogel",
+        "amount": 100
+     },
+    {
+        "item": "chromium",
+        "amount": 200
+     },
+     {
+        "item": "voltite",
+        "amount": 100
+     }
+  ],
+  "itemCapacity": 20,
+  "liquidCapacity": 0,
+  "health": 320,
+  "hasLiquids": false,
+
+  "effectChance": 0.2,
+  "generateEffect": "generatespark",
+  "squareSprite": false,
+  "size": 3,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawCrucibleFlame",
+          "midColor": "ffdd00",
+          "flameColor": "ffed74",
+          "flameRad": 2
+        }
+    ]
+  }
+}

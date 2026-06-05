@@ -1,0 +1,19 @@
+name: Corroded
+color: 67d200
+damageMultiplier: 0.6
+speedMultiplier: 0.7
+reloadMultiplier: 0.8
+healthMultiplier: 0.8
+damage: 0.2
+outline: true
+effect: {
+  type: ParticleEffect
+  colorFrom: e1ffa1
+  colorTo: ceff63
+  particles: 2
+  sizeFrom: 2
+  sizeTo: 0
+  lightColor: e1ffa1
+}
+affinities: []
+opposites: []

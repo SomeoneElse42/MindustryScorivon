@@ -1,0 +1,68 @@
+{
+  "type": "AttributeCrafter",
+  "name": "Pyroxane Turbine",
+  "description": "Extracts Pyroxane from Vents.",
+  "size": 3,
+  "health": 220,
+  "squareSprite": false,
+  "attribute": "pyroxene",
+  "minEfficiency": 9,
+  "baseEfficiency": 0,
+  "displayEfficiency": false,
+  "category": "production",
+  "requirements": [
+    "cobalt/40",
+    "silicon/80",
+    "obsidium/50"
+  ],
+  "researchCost": [
+    "cobalt/800",
+    "silicon/1600",
+    "obsidium/1000"
+  ],
+  "research": "drive-drill",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "pyroxene",
+        "padding": 2
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 16
+      },
+      {
+        "type": "DrawDefault" 
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopMachineSpin",
+  "ambientSoundVolume": 1,
+  "hasLiquids": true,
+  "boostScale": 0.114,
+  "outputLiquid": "pyroxene/0.8",
+  "consumes": {
+    "power": 3
+  },
+  "liquidCapacity": 1200,
+
+  "craftEffect":{
+    "type": "ParticleEffect",
+    "lifetime": 100,
+    "length": 35,
+    "baseLength": 4,
+    "sizeFrom": 2,
+    "sizeTo": 4,
+    "colorFrom": "ffd56860",
+    "colorTo": "d1e4ff00",
+    "particles": 3
+  }
+}

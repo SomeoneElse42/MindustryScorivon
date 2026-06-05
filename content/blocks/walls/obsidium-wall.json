@@ -1,0 +1,19 @@
+"type": "Wall",
+"name": "Obsidium Wall",
+"description": "Protects structures from enemy projectiles.",
+"size": 1,
+"category": "defense",
+"requirements": [
+  "obsidium/6"
+]
+"health": 520,
+"buildTime": 1,
+"researchCost": [
+  "obsidium/80"
+  ],
+research: [
+  parent: cobalt-wall
+  planet: scorivon
+  requiresUnlock: true
+  name: "Scorivon"
+  ]

@@ -1,0 +1,12 @@
+{
+  "type": "AutoDoor",
+  "name": "Heavy Door",
+  "description": "A door that opens automatically for allied units. Cannot be manually opened or closed.",
+  "category": "defense",
+  "requirements": [
+    "obsidium/24",
+    "silicon/24"
+  ],
+  "health": 2080,
+  "size": 2
+}

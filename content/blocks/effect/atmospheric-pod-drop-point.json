@@ -1,0 +1,28 @@
+{
+  "type": "LandingPad",
+  "health": 1200,
+  "name": "Atmospheric Pod Drop Point",
+  "description": "Receives atmospheric pods from other sectors with loaders. Requires large amounts of caldrine to dampen the impact.",
+  "cooldownTime": 120,
+  "arrivalTime": 120,
+  "podRegion": "-pod",
+  "itemCapacity": 100,
+  "squareSprite": false,
+  "bottomColor": "2c1e32ff",
+  "size": 4,
+  "consumeLiquid": "caldrine",
+  "consumeLiquidAmount": 150,
+  "category": "effect",
+  "research": "atmospheric-pod-loader",
+  
+  "researchCost": [
+    "obsidium/500",
+    "aerogel/750",
+    "silumin/500"
+  ],
+  "requirements": [
+    "obsidium/100",
+    "aluminium/150",
+    "silumin/100"
+  ]
+}

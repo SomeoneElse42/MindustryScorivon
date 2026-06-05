@@ -1,0 +1,130 @@
+{
+  "type": "ItemTurret",
+  "name": "Shift",
+  "description": "Fires burning rounds at ground enemies.",
+  "squareSprite": false,
+  "category": "turret",
+  "heatColor": "ff4c00",
+  "reload": 15,
+  "health": 350,
+  "range": 90,
+  "maxAmmo": 50,
+  "rotateSpeed": 3,
+  "size": 2,
+  "consumes": { 
+    "coolant": { 
+       "amount": 0.1,
+       "allowGas": true
+    } 
+  },
+  "coolantMultiplier": 12,
+  "inaccuracy": 5,
+  "targetAir": false,
+  "targetGround": true,
+  "ammoTypes": {
+    "sulphur": {
+      "speed": 4,
+      "frontColor": "8996ff",
+      "backColor": "596bff",
+      "ammoMultiplier": 2,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "width": 8,
+      "damage": 32,
+      "lifetime": 20,
+      "height": 8,
+      "status": "burning",
+
+      "trailColor": "8996ff",
+      "trailChance": 0,
+      "trailLength": 4,
+      "trailWidth": 2,
+      "trailInterval": 0,
+      "trailEffect": "missileTrail",
+      "trailRotation": false
+    },
+    "phosphor": {
+      "speed": 4,
+      "frontColor": "e1ffa1",
+      "backColor": "ceff63",
+      "ammoMultiplier": 2,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "width": 8,
+      "damage": 42,
+      "lifetime": 20,
+      "height": 8,
+      "status": "burning",
+      "statusDuration": 960,
+
+      "trailColor": "e1ffa1",
+      "trailChance": 0,
+      "trailLength": 4,
+      "trailWidth": 2,
+      "trailInterval": 0,
+      "trailEffect": "missileTrail",
+      "trailRotation": false
+    },
+    "flash-fuel": {
+      "speed": 4,
+      "frontColor": "ffffff",
+      "backColor": "ffffff",
+      "ammoMultiplier": 2,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "width": 8,
+      "damage": 64,
+      "lifetime": 20,
+      "height": 8,
+      "status": "melting",
+      "statusDuration": 960,
+
+      "trailColor": "ffffff",
+      "trailChance": 0,
+      "trailLength": 4,
+      "trailWidth": 2,
+      "trailInterval": 0,
+      "trailEffect": "missileTrail",
+      "trailRotation": false
+    },
+    "chloride": {
+      "speed": 4,
+      "frontColor": "ff82ee",
+      "backColor": "f969e5",
+      "ammoMultiplier": 4,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "width": 8,
+      "damage": 36,
+      "lifetime": 20,
+      "height": 8,
+      "status": "acid-corroded",
+      "statusDuration": 480,
+
+      "trailColor": "ff82ee",
+      "trailChance": 0,
+      "trailLength": 8,
+      "trailWidth": 2,
+      "trailInterval": 0,
+      "trailEffect": "missileTrail",
+      "trailRotation": false
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "scorivon-"
+  },
+  "requirements": [
+    "cobalt/80",
+    "chromium/40"
+  ],
+  "researchCost": [
+  "cobalt/200",
+  "chromium/100"
+],
+  "research": {
+    "parent": "core-glint",
+    "requiresUnlock": false,
+    "name": "Shift"
+  }
+}

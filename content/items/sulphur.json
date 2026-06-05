@@ -1,0 +1,11 @@
+{
+"name": "Sulphur",
+  "description": "A flammable crystal used in explosive and flammable ammo.",
+  "color": "ffe95c", 
+  "hardness": 1,
+  "flammability": 0.8,
+  "explosiveness": 0.4,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

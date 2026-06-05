@@ -1,0 +1,41 @@
+
+"type": "Drill",
+"name": "Drive Drill",
+"description": "An improved drill that uses a powerful chain drive to extract resources. Can mine Obsidium.",
+"size": 2,
+"squareSprite": false,
+"category": "production",
+"research": "kinetic-drill",
+"requirements": [
+  "cobalt/10",
+  "silicon/15",
+  "chromium/5"
+],
+"drillTime": 160,
+"itemCapacity": 10,
+"fogRadius": 2,
+
+  "ambientSound": "drill",
+  "ambientSoundVolume": 0.05
+"tier":  5,
+"consumes": {
+  "power": 0.4,
+  "liquid": {
+      "liquid": "water",
+      "amount": 0.02,
+      "optional": true,
+      "booster": true
+    }
+},
+//research
+"researchCost": [
+  "cobalt/100"
+  "silicon/200"
+  "chromium/50"
+  ],
+research: [
+    parent: kinetic-drill
+    planet: scorivon
+    requiresUnlock: true
+    name: "Scorivon"
+    ]

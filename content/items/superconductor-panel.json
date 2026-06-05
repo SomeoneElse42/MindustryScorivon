@@ -1,0 +1,11 @@
+{
+"name": "[#96cab9ff]Superconductor Panel",
+  "description": "An extremely conductive alloy made from Voltite and Metallic Hydrogen. Unstable.",
+  "color": "96cab9", 
+  "hardness": 3,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0.1,
+  "charge": 1.2,
+  "shownPlanets": ["scorivon"]
+}

@@ -1,0 +1,12 @@
+{
+"name": "[#a5f06fff]Algae Clump",
+  "description": "Slimy, single celled organisms that can photosynthesize. Used for highly flammable biofuels.",
+  "color": "89df4c", 
+  "hardness": 2,
+  "flammability": 0.1,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "details": "The only known life to survive the harsh environment of Scorivon. This species naturally produces phosphor, likely for primitive communication, similarly to neurons but with light rather than electricity. Large colonies may show signs of high intelligence and are capable of thinking as one large entity.\n\nAs Scorivon heated up, most of the algae got burnt and died. Most of the little that survived did so in cool aquifers deep underground.",
+  "shownPlanets": ["scorivon"]
+}

@@ -1,0 +1,74 @@
+{
+    "type": "GenericCrafter",
+    "name": "Silumin Foundry",
+    "description": "Alloys Aluminium and Silicon into Silumin.",
+    "squareSprite": false,
+    "category": "crafting",
+    "outputItem": {
+        "item": "silumin",
+        "amount": 3
+    },
+    "craftTime": 120,
+    "ambientSound": "loopSmelter",
+    "size": 3,
+    "health": 730,
+    "consumes": {
+        "power": 4.5,
+        "items": {
+            "items": [
+                {
+                    "item": "aluminium",
+                    "amount": 2
+                  },
+                  {
+                    "item": "silicon",
+                    "amount": 1
+                  }
+            ]
+        }
+    },
+    "itemCapacity": 20,
+    "requirements": [
+        {
+            "item": "chromium",
+            "amount": 10
+          },
+        {
+            "item": "obsidium",
+            "amount": 20
+         },
+         {
+            "item": "aluminium",
+            "amount": 10
+         }
+    ],
+    "researchCost":[
+        {
+            "item": "chromium",
+            "amount": 50
+          },
+        {
+            "item": "obsidium",
+            "amount": 100
+         },
+         {
+            "item": "aluminium",
+            "amount": 50
+         }
+    ],
+
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawDefault" 
+        },
+        
+        {
+          "type": "DrawCrucibleFlame",
+          "midColor": "ffed74",
+          "flameColor": "ffd6ff"
+        }
+      ]
+    }
+} 

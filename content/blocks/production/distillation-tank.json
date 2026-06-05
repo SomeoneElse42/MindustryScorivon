@@ -1,0 +1,85 @@
+{
+  "type": "GenericCrafter",
+  "name": "Distillation Tank",
+  "description": "Splits Pyroxane into its individual gases.",
+  "details": "It doesn't actually produce pyroxane, this is just a somewhat sloppy fix to a bug I couldn't figure out.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquids": [
+    "carbon/0.2",
+    "hydrogen/0.2",
+    "chlorine/0.2",
+    "pyroxene/0"
+  ],
+  "ambientSound": "loopExtract",
+  "ambientSoundVolume": 0.05,
+  "rotate": true,
+  "liquidOutputDirections": [0,1,2,3],
+  "size": 3,
+  "hasLiquids": "true",
+  "health": 240,
+  "craftTime": 60,
+  "consumes": {
+    "power": 0.75,
+      "liquids": {
+        "liquids": [
+          {
+            "liquid": "pyroxene",
+            "amount": 0.6
+          }
+        ]
+      }
+  },
+  "itemCapacity": 0,
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "cobalt",
+        "amount": 10
+      },
+    {
+        "item": "obsidium",
+        "amount": 40
+     },
+    {
+        "item": "chromium",
+        "amount": 20
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "cobalt",
+        "amount": 50
+      },
+    {
+        "item": "silicon",
+        "amount": 200
+     },
+    {
+        "item": "chromium",
+        "amount": 100
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "pyroxene",
+        "padding": 2
+      },
+      {
+        "type": "DrawRegion"
+      },
+      {
+        "type": "DrawLiquidOutputs"
+      }
+    ]
+  }
+}

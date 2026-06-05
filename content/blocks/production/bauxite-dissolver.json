@@ -1,0 +1,101 @@
+{
+  "type": "GenericCrafter",
+  "name": "Bauxite Dissolver",
+  "description": "Dissolves bauxite using acid to produce alumina. Produces sludge as a byproduct.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquids": [
+    "sludge/0.2"
+  ],
+  "outputItem": "alumina/2",
+  "ignoreLiquidFullness": false,
+  "size": 3,
+  "hasLiquids": "true",
+  "health": 460,
+  "craftTime": 60,
+  "consumes": {
+    "power": 3.2,
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "acid",
+          "amount": 0.15
+        }
+      ]
+    },
+    "items": {
+      "items": [
+          {
+            "item": "bauxite",
+            "amount": 4
+          }
+      ]
+    }
+  },
+  "itemCapacity": 40,
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "cobalt",
+        "amount": 10
+      },
+    {
+        "item": "obsidium",
+        "amount": 40
+     },
+     {
+        "item": "plastic-sheet",
+        "amount": 40
+     },
+    {
+        "item": "chromium",
+        "amount": 20
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "cobalt",
+        "amount": 50
+      },
+    {
+        "item": "obsidium",
+        "amount": 200
+     },
+     {
+        "item": "plastic-sheet",
+        "amount": 200
+     },
+    {
+        "item": "chromium",
+        "amount": 100
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "acid",
+        "padding": 2
+      },
+      {
+        "type": "DrawBubbles",
+        "color": "b0ff65",
+        "sides": 12,
+        "recurrence": 3,
+        "spread": 6,
+        "radius": 1.5,
+        "amount": 20
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

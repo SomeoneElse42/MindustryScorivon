@@ -1,0 +1,14 @@
+type: DuctRouter
+name: Chute Router
+size: 1
+health: 100
+speed: 3
+category: distribution
+requirements: [
+	cobalt/10
+]
+
+research: chute
+researchCost: [
+	cobalt/20
+]

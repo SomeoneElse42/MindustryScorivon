@@ -1,0 +1,122 @@
+{
+  "type": "GenericCrafter",
+  "name": "Temperite Furnace",
+  "description": "Produces extremely heat and pressure resistant Temperite from Obsidium and Superheated Slag.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquids": [
+  ],
+  "outputItem": "temperite/1",
+  "ignoreLiquidFullness": true,
+  "size": 3,
+  "hasLiquids": "true",
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 0.05,
+  "health": 1270,
+  "craftTime": 60,
+  "consumes": {
+    "power": 14,
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "superheated-slag",
+          "amount": 0.05
+        }
+      ]
+    },
+    "items": {
+      "items": [
+          {
+            "item": "obsidium",
+            "amount": 1
+          }
+      ]
+    }
+  },
+  "itemCapacity": 10,
+  "liquidCapacity": 30,
+  "requirements": [
+    {
+        "item": "corundum",
+        "amount": 20
+      },
+    {
+        "item": "obsidium",
+        "amount": 120
+     },
+     {
+        "item": "aerogel",
+        "amount": 10
+     },
+     {
+        "item": "aluminium",
+        "amount": 10
+     },
+     {
+        "item": "silicon",
+        "amount": 10
+     },
+    {
+        "item": "chromium",
+        "amount": 20
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "corundum",
+        "amount": 100
+      },
+    {
+        "item": "obsidium",
+        "amount": 600
+     },
+     {
+        "item": "aerogel",
+        "amount": 50
+     },
+     {
+        "item": "aluminium",
+        "amount": 50
+     },
+     {
+        "item": "silicon",
+        "amount": 50
+     },
+    {
+        "item": "chromium",
+        "amount": 100
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "superheated-slag",
+        "padding": 2
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-middle"
+      },
+      {
+        "type": "DrawArcSmelt",
+        "flameColor": "da8bff",
+        "midColor": "ebc0ff"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "eeffff"
+      }
+    ]
+  }
+}

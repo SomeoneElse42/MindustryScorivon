@@ -1,0 +1,64 @@
+{
+    "type": "GenericCrafter",
+    "name": "Silicon Synthesizer",
+    "description": "Synthesizes Silicon from Sulphur and Sand.",
+    "squareSprite": false,
+    "category": "crafting",
+    "outputItem": {
+        "item": "silicon",
+        "amount": 2
+    },
+    "ambientSound": "loopSmelter",
+    "ambientSoundVolume": 0.05,
+    "size": 2,
+    "health": 180,
+    "consumes": {
+        "power": 0.2,
+        "items": {
+            "items": [
+                {
+                    "item": "sand",
+                    "amount": 2
+                  },
+                  {
+                    "item": "sulphur",
+                    "amount": 1
+                  }
+            ]
+        }
+    },
+    "itemCapacity": 20,
+    "requirements": [
+        {
+            "item": "cobalt",
+            "amount": 50
+          },
+        {
+            "item": "chromium",
+            "amount": 20
+         }
+    ],
+    "researchCost":[
+        {
+            "item": "cobalt",
+            "amount": 100
+          },
+        {
+            "item": "chromium",
+            "amount": 40
+         }
+    ],
+
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawDefault" 
+        },
+        
+        {
+          "type": "DrawCrucibleFlame"
+        }
+      ]
+    }
+} 

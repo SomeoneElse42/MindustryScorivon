@@ -1,0 +1,73 @@
+{
+  "type": "GenericCrafter",
+  "name": "Compressor",
+  "description": "Compresses atmospheric air.",
+  "size": 3,
+  "health": 450,
+  "squareSprite": false,
+  "category": "crafting",
+  "requirements": [
+    "temperite/120",
+    "silicon/20",
+    "chromium/80",
+    "corundum/40",
+    "aluminium/40",
+    "neodymium/40",
+    "plastic-sheet/80",
+    "obsidium/50"
+  ],
+  "researchCost": [
+    "temperite/600",
+    "silicon/100",
+    "chromium/400",
+    "corundum/200",
+    "aluminium/200",
+    "neodymium/200",
+    "plastic-sheet/400",
+    "obsidium/250"
+  ],
+  "research": "temperite-furnace",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "compressed-air",
+        "padding": 2
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 16
+      },
+      {
+        "type": "DrawDefault" 
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopMachineSpin",
+  "ambientSoundVolume": 1,
+  "hasLiquids": true,
+  "outputLiquid": "compressed-air/0.6",
+  "consumes": {
+    "power": 12.4
+  },
+  "liquidCapacity": 1200,
+
+  "craftEffect":{
+    "type": "ParticleEffect",
+    "lifetime": 100,
+    "length": 35,
+    "baseLength": 4,
+    "sizeFrom": 0.5,
+    "sizeTo": 1,
+    "colorFrom": "ffff8560",
+    "colorTo": "ffffca00",
+    "particles": 3
+  }
+}

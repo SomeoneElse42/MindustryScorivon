@@ -1,0 +1,19 @@
+type: Duct
+name: Reinforced Chute
+size: 1
+bridgeReplacement: chute-bridge
+speed: 3
+health: 90
+isDuct: true
+armored: true
+category: distribution
+requirements: [
+	cobalt/1
+	aluminium/2
+]
+
+research: chute
+researchCost: [
+	cobalt/5
+	aluminium/10
+]

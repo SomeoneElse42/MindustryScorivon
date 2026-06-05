@@ -1,0 +1,93 @@
+{
+  "type": "GenericCrafter",
+  "name": "Supercritical Dryer",
+  "description": "Dries Aerogel, a super lightweight material used for insulation using supercritical Carbon.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputItem": {
+        "item": "aerogel",
+        "amount": 2
+    },
+  "size": 2,
+  "hasLiquids": "true",
+  "ambientSound": "loopTech",
+  "ambientSoundVolume": 0.05,
+  "health": 240,
+  "craftTime": 60,
+  "consumes": {
+    "power": 10,
+    "items": {
+      "items": [
+          {
+            "item": "silicon",
+            "amount": 1
+          }
+        ]
+        },
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "carbon",
+              "amount": 0.05
+            }
+          ]
+        }
+  },
+  "itemCapacity": 20,
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 50
+      },
+      {
+        "item": "plastic-sheet",
+        "amount": 50
+      },
+    {
+        "item": "silicon",
+        "amount": 20
+     },
+    {
+        "item": "chromium",
+        "amount": 100
+    }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 250
+      },
+      {
+        "item": "plastic-sheet",
+        "amount": 250
+      },
+    {
+        "item": "silicon",
+        "amount": 100
+     },
+    {
+        "item": "chromium",
+        "amount": 500
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "carbon",
+        "padding": 2
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

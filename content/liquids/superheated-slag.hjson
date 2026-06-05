@@ -1,0 +1,10 @@
+type: Liquid
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.5
+viscosity: 0.5
+temperature: 5
+color: c0ffff
+name: "Superheated Slag"
+description: "Slag heated to an extreme temperature. Used in power generation and advanced resource production."
+shownPlanets: ["scorivon"]

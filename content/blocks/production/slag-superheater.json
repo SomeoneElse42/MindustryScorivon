@@ -1,0 +1,109 @@
+{
+  "type": "GenericCrafter",
+  "name": "Slag Superheater",
+  "description": "Heats up slag to extreme temperatures.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "superheated-slag",
+    "amount": 0.25
+  },
+  "ambientSound": "loopHum",
+  "ambientSoundVolume": 0.05,
+  "size": 3,
+  "hasLiquids": true,
+  "health": 640,
+  "craftTime": 60,
+  "consumes": {
+    "power": 7,
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "slag",
+              "amount": 0.25
+            }
+          ]
+        },
+        "items": {
+            "items": [
+                  {
+                    "item": "sulphur",
+                    "amount": 1
+                  }
+            ]
+        }
+  },
+  "itemCapacity": 20,
+  "liquidCapacity": 90,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 50
+      },
+    {
+        "item": "cobalt",
+        "amount": 20
+      },
+      {
+        "item": "corundum",
+        "amount": 25
+      },
+      {
+        "item": "aerogel",
+        "amount": 10
+      },
+    {
+        "item": "silicon",
+        "amount": 10
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 250
+      },
+      {
+        "item": "cobalt",
+        "amount": 100
+      },
+      {
+        "item": "corundum",
+        "amount": 125
+      },
+      {
+        "item": "aerogel",
+        "amount": 50
+      },
+    {
+        "item": "silicon",
+        "amount": 50
+     }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "superheated-slag",
+        "padding": 1
+      },
+
+      {
+        "type": "DrawDefault"
+      },
+
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "38eeee",
+        "alpha": 0.75
+      }
+    ]
+  }
+}

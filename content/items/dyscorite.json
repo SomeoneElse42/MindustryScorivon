@@ -1,0 +1,11 @@
+{
+"name": "[#ff0000]Dyscorite",
+  "description": "A strange material with high structural properties. Unstable.",
+  "color": "ff0000", 
+  "hardness": 3,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0.05,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

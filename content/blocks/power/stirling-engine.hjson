@@ -1,0 +1,55 @@
+type: ThermalGenerator
+name: Stirling Engine
+description: Requires a temperature difference to run. Placed on cool locations.
+details: Ice is a rare geological anomaly on Scorivon, but explained by looking at its history. When the rapid heating of the formerly cool planet caused the oceans to evaporate, and the phosphor from the dead algae formed sedimentary rocks, some desolate, cooler areas remained frozen. These are extremely cold patches surrounded by extreme heat.
+size: 2
+squareSprite: false
+attribute: heat
+displayEfficiency: true
+minEfficiency: 0.1
+maxBoost: 20
+boostScale: 0.25
+baseEfficiency: 0
+powerProduction: 2.6
+generateEffect: vapor
+effectChance: 0.02
+squareSprite: false
+category: power
+hasPower: true
+
+requirements: [
+    cobalt/20
+    aerogel/20
+    obsidium/40
+    chromium/100
+]
+
+
+ambientSound: hum
+ambientSoundVolume: 0.08
+
+
+
+research: core-glint
+researchCost: [
+    cobalt/100
+    aerogel/100
+    obsidium/200
+    chromium/500
+] 
+
+
+"drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawDefault" 
+        },
+        
+        {
+        "type": "DrawFlame",
+        "flameColor": "ddf0b6",
+        "suffix": "-top"
+        }
+      ]
+    }

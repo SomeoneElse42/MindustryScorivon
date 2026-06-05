@@ -1,0 +1,11 @@
+{
+"name": "[#ffed74ff]Voltite",
+  "description": "A charged Alloy made from Electrum and Obsidium.",
+  "color": "ffdd00", 
+  "hardness": 3,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0.8,
+  "shownPlanets": ["scorivon"]
+}

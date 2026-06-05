@@ -1,0 +1,11 @@
+{
+"name": "[#fff4abff]Kickstart Core",
+  "description": "A charged core of Voltite encased in a shell of Obsidium, used to kickstart power grids.",
+  "color": "fff4ab", 
+  "hardness": 3,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 1,
+  "shownPlanets": ["scorivon"]
+}

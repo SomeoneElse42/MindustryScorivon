@@ -1,0 +1,52 @@
+{
+  "type": "PowerTurret",
+  "name": "Strobe",
+  "description": "Rapidly fires arcs of electricity at enemies.",
+  "squareSprite": false,
+  "category": "turret",
+  "reload": 8,
+  "health": 350,
+  "range": 90,
+  "maxAmmo": 50,
+  "rotateSpeed": 5,
+  "size": 2,
+  "shootSound": "shootArc",
+  "hitSound": "shootArc",
+  "consumes": { 
+    "coolant": { 
+       "amount": 0.1,
+       "allowGas": true
+    } 
+  },
+  "coolantMultiplier": 12,
+  "heatColor": "ff4c00",
+  "targetAir": true,
+  "targetGround": true,
+  "shootCone": 12,
+  "shootType": {
+    "type": "LightningBulletType",
+    "lightningLength": 15,
+    "damage": 24,
+    "lightningColor": "e79aff",
+    "lightColor": "e79aff",
+    "shootSound": "shootArc",
+    "hitSound": "shootArc"
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "scorivon-"
+  },
+  "requirements": [
+    "chromium/80",
+    "silicon/40"
+  ],
+  "researchCost": [
+  "chromium/200",
+  "silicon/100"
+],
+  "research": {
+    "parent": "core-glint",
+    "requiresUnlock": false,
+    "name": "Strobe"
+  }
+}

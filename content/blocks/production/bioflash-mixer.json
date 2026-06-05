@@ -1,0 +1,116 @@
+{
+  "type": "GenericCrafter",
+  "name": "Bioflash Mixer",
+  "description": "Mixes biomass with grease to produce bioflash.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquids": [
+    "bioflash/0.25"
+  ],
+  "ignoreLiquidFullness": false,
+  "size": 3,
+  "hasLiquids": "true",
+  "health": 560,
+  "craftTime": 60,
+  "consumes": {
+    "power": 3,
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "grease",
+          "amount": 0.25
+        }
+      ]
+    },
+    "items": {
+      "items": [
+          {
+            "item": "biomass",
+            "amount": 2
+          }
+      ]
+    }
+  },
+  "itemCapacity": 40,
+  "liquidCapacity": 45,
+  "requirements": [
+      {
+        "item": "aluminium",
+        "amount": 15
+      },
+    {
+        "item": "obsidium",
+        "amount": 40
+     },
+     {
+        "item": "plastic-sheet",
+        "amount": 20
+     },
+    {
+        "item": "chromium",
+        "amount": 25
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "aluminium",
+        "amount": 75
+      },
+    {
+        "item": "obsidium",
+        "amount": 200
+     },
+     {
+        "item": "plastic-sheet",
+        "amount": 100
+     },
+    {
+        "item": "chromium",
+        "amount": 125
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "bioflash",
+        "padding": 2
+      },
+      {
+        "type": "DrawBubbles",
+        "color": "ecff74",
+        "sides": 12,
+        "recurrence": 3,
+        "spread": 6,
+        "radius": 1.5,
+        "amount": 20
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 3
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "ecff74"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow-liquid",
+        "color": "ecff74",
+        "alpha": 0.6
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Solid Burner",
+  "description": "Generates power by burning solid fuel.",
+  "category": "power",
+  "powerProduction": 1.2,
+  "consumes": {
+    "itemFlammable": {}
+  },
+  "ambientSound": "loopCombustion",
+  "ambientSoundVolume": 0.05,
+  "itemDuration": 60,
+  "requirements": [
+    {
+        "item": "cobalt",
+        "amount": 20
+      },
+    {
+        "item": "chromium",
+        "amount": 50
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "cobalt",
+        "amount": 100
+      },
+    {
+        "item": "chromium",
+        "amount": 250
+     }
+  ],
+  "itemCapacity": 20,
+  "health": 180,
+
+  "effectChance": 0.05,
+  "generateEffect": "reactorsmoke",
+  "squareSprite": false,
+  "size": 2,
+  "drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawDefault" 
+        },
+        
+        {
+          "type": "DrawCrucibleFlame",
+          "flameColor": "ff8827ff",
+          "midColor": "7eb3ffff"
+        }
+      ]
+    }
+}

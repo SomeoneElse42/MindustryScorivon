@@ -1,0 +1,11 @@
+{
+"name": "Cobalt",
+  "description": "A durable metal, fit for survival on Scorivon.",
+  "color": "0f22c5", 
+  "hardness": 3,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

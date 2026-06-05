@@ -1,0 +1,11 @@
+{
+"name": "[#c9faa6ff]Bionic Fiber Cable",
+  "description": "Optic fiber cable made from pulsing phosphor algae.",
+  "color": "c9faa6", 
+  "hardness": 4,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0.1,
+  "shownPlanets": ["scorivon"]
+}

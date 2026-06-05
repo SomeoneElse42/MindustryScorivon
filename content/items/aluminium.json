@@ -1,0 +1,11 @@
+{
+"name": "Aluminium",
+  "description": "An incredibly light but also soft metal, used for power production and specialized lightweight structure.",
+  "color": "ffd6ff", 
+  "hardness": 2,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

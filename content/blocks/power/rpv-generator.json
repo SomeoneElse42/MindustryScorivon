@@ -1,0 +1,84 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "RPV Generator",
+  "description": "Generates power from the radiation emitted by tritium, amplified by phosphor.",
+  "category": "power",
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 0.025,
+  "powerProduction": 60,
+  "consumes": {
+    "items": {
+      "items": [
+          {
+            "item": "phosphor",
+            "amount": 1
+          }
+        ]
+      },
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "tritium",
+          "amount": "0.1"
+        }
+      ]
+    }
+  },
+  "itemDuration": 120,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 40
+      },
+    {
+        "item": "chromium",
+        "amount": 20
+     },
+    {
+        "item": "silicon",
+        "amount": 50
+     },
+     {
+        "item": "voltite",
+        "amount": 10
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 200
+      },
+    {
+        "item": "chromium",
+        "amount": 100
+     },
+    {
+        "item": "silicon",
+        "amount": 250
+     },
+     {
+        "item": "voltite",
+        "amount": 50
+     }
+  ],
+  "itemCapacity": 20,
+  "liquidCapacity": 24,
+  "health": 320,
+  "hasLiquids": true,
+
+  "squareSprite": false,
+  "size": 2,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "c2ff73",
+        "suffix": "-top"
+      }
+    ]
+  }
+}

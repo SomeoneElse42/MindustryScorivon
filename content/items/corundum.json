@@ -1,0 +1,11 @@
+{
+"name": "[#e63967ff]Corundum",
+  "description": "An extremely valuable, rare and durable crystal. Used for abrasives and heat shielding, as well as a specialized structural material.",
+  "color": "e63967", 
+  "hardness": 12,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

@@ -1,0 +1,11 @@
+{
+"name": "Aerogel",
+  "description": "A light but brittle material that is used as a heat insulator.",
+  "color": "ccdcd5", 
+  "hardness": 2,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

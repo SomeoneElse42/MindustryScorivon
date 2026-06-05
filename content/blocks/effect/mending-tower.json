@@ -1,0 +1,70 @@
+{
+  "name": "Mending Tower",
+  "description": "Slowly repairs nearby blocks.",
+  "type": "RegenProjector",
+  "hasLiquids": true,
+  "health": 840,
+  "size": 2,
+  "squareSprite": false,
+  "range": 20,
+  "healPercent": 0.025,
+  "optionalMultiplier": 2.5,
+  "optionalUseTime": 520,
+  "baseColor": "cb0008",
+  "consumes": {
+    "power": 2,
+    "liquids": {
+      "liquids": [
+        {
+          "amount": 0.2,
+          "liquid": "caldrine"
+        }
+      ],
+      "optional": false,
+      "booster": false
+    },
+    "items": {
+      "items": [
+        {
+          "amount": 1,
+          "item": "electrum"
+        }
+      ],
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    "silicon/10",
+    "cobalt/15",
+    "chromium/20",
+    "obsidium/10"
+  ],
+  "researchCost": [
+    "silicon/50",
+    "cobalt/75",
+    "chromium/100",
+    "obsidium/50"
+  ],
+  "category": "effect",
+  "research": "core-glint",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "ffa984"
+      },
+      {
+      "type": "DrawPulseShape",
+      "square": false,
+      "color": "cb0008",
+      "minStroke": 0
+      }
+    ]
+  }
+}

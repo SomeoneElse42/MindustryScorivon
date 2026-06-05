@@ -1,0 +1,43 @@
+"type": "Drill",
+"name": "Corrosion Drill",
+"description": "A powerful drill that uses acid to melt away the ground. Can mine everything.",
+"size": 3,
+"squareSprite": false,
+"category": "production",
+"requirements": [
+  "cobalt/15",
+  "silicon/10",
+  "plastic-sheet/10",
+  "obsidium/20"
+],
+"drillTime": 120,
+"itemCapacity": 10,
+"fogRadius": 2,
+
+  "ambientSound": "steam",
+  "ambientSoundVolume": 0.05
+"tier":  7,
+"hasLiquids": true,
+"liquidCapacity": 12
+"consumes": {
+  "power": 4,
+    "liquid": {
+      "liquid": "acid",
+      "amount": 0.1,
+      "booster": false
+    }
+},
+"liquidBoostIntensity": 1,
+//research
+"researchCost": [
+  "cobalt/75"
+  "silicon/50"
+  "plastic-sheet/50"
+  "obsidium/100"
+  ],
+research: [
+    parent: drive-drill
+    planet: scorivon
+    requiresUnlock: true
+    name: "Scorivon"
+    ]

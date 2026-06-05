@@ -1,0 +1,16 @@
+type: Duct
+name: Chute
+size: 1
+bridgeReplacement: chute-bridge
+speed: 3
+health: 60
+isDuct: true
+category: distribution
+requirements: [
+	cobalt/1
+]
+
+research: core-glint
+researchCost: [
+	cobalt/5
+]

@@ -1,0 +1,11 @@
+type: Liquid
+explosiveness: 0.5
+flammability: 0.1
+heatCapacity: 0.5
+viscosity: 0.3
+temperature: 0.5
+color: dbff00
+name: "Chlorine"
+gas: true
+description: "A highly toxic and corrosive gas. Used in power production and weaponry."
+shownPlanets: ["scorivon"]

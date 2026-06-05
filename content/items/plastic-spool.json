@@ -1,0 +1,11 @@
+{
+"name": "Plastic Spool",
+  "description": "Plastic filament rolled on a spool to be used by 3d Printers.",
+  "color": "70c1d1", 
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 0.0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

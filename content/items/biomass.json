@@ -1,0 +1,11 @@
+{
+"name": "Biomass",
+  "description": "Weakened, roasted algae. Used for biofuels and bionics.",
+  "color": "6c5b51", 
+  "hardness": 2,
+  "flammability": 0.5,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

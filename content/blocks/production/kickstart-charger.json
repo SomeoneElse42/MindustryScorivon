@@ -1,0 +1,83 @@
+{
+    "type": "GenericCrafter",
+    "name": "Kickstart Charger",
+    "description": "Charges Kickstart Cores out of Obsidium encased Voltite for later use.",
+    "squareSprite": false,
+    "category": "crafting",
+    "outputItem": {
+        "item": "kickstart-core",
+        "amount": 1
+    },
+    "craftTime": 60,
+    "ambientSound": "loopElectricHum",
+    "ambientSoundVolume": 0.05,
+    "size": 2,
+    "health": 520,
+    "consumes": {
+        "power": 30,
+        "items": {
+            "items": [
+                {
+                    "item": "voltite",
+                    "amount": 1
+                  },
+                  {
+                    "item": "obsidium",
+                    "amount": 1
+                  }
+            ]
+        }
+    },
+    "itemCapacity": 20,
+    "requirements": [
+        {
+            "item": "chromium",
+            "amount": 20
+          },
+        {
+            "item": "obsidium",
+            "amount": 50
+         },
+         {
+            "item": "aerogel",
+            "amount": 10
+         },
+         {
+            "item": "silicon",
+            "amount": 20
+         }
+    ],
+    "researchCost":[
+        {
+            "item": "chromium",
+            "amount": 100
+          },
+        {
+            "item": "obsidium",
+            "amount": 250
+         },
+         {
+            "item": "aerogel",
+            "amount": 50
+         },
+         {
+            "item": "silicon",
+            "amount": 100
+         }
+    ],
+
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawDefault" 
+        },
+        
+        {
+          "type": "DrawCrucibleFlame",
+          "midColor": "ffffff",
+          "flameColor": "fff4ab"
+        }
+      ]
+    }
+} 

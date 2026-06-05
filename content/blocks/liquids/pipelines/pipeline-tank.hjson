@@ -1,0 +1,21 @@
+type: LiquidRouter
+name: Liquid Reservoir
+size: 3
+health: 500
+placeableLiquid: true
+liquidCapacity: 2400
+liquidPressure: 10
+squareSprite: false
+liquidPadding: 2
+
+category: liquid
+requirements: [
+	chromium/80
+  obsidium/60
+]
+
+research: pipeline-container
+researchCost: [
+	chromium/400
+  obsidium/300
+]

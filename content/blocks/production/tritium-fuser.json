@@ -1,0 +1,84 @@
+{
+  "type": "GenericCrafter",
+  "name": "Tritium Fuser",
+  "description": "Fuses Hydrogen into Tritium. Requires compressed air for cooling and pneumatics.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "tritium",
+    "amount": 0.2
+  },
+  "ambientSound": "loopExtract",
+  "ambientSoundVolume": 0.05,
+  "size": 3,
+  "hasLiquids": true,
+  "health": 840,
+  "craftTime": 60,
+  "consumes": {
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "hydrogen",
+              "amount": 0.4
+            },
+            {
+              "liquid": "power-flux",
+              "amount": 0.05
+            },
+            {
+              "liquid": "compressed-air",
+              "amount": 0.1
+            }
+          ]
+        }
+  },
+  "itemCapacity": 0,
+  "liquidCapacity": 60,
+  "requirements": [
+      "temperite/100",
+      "aerogel/20",
+      "silicon/20",
+      "chromium/40",
+      "corundum/40",
+      "aluminium/60",
+      "plastic-sheet/120",
+      "obsidium/50"
+    ],
+    "researchCost": [
+      "temperite/500",
+      "aerogel/100",
+      "silicon/100",
+      "chromium/200",
+      "corundum/200",
+      "aluminium/300",
+      "plastic-sheet/600",
+      "obsidium/250"
+    ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "tritium",
+        "padding": 2
+      },
+
+      {
+        "type": "DrawDefault"
+      },
+
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "a9ff38",
+        "alpha": 0.75
+      }
+    ]
+  }
+}

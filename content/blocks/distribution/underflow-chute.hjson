@@ -1,0 +1,15 @@
+type: OverflowDuct
+name: Underflow Chute
+invert: true
+size: 1
+health: 100
+speed: 3
+category: distribution
+requirements: [
+	cobalt/10
+]
+
+research: chute-router
+researchCost: [
+	cobalt/20
+]

@@ -1,0 +1,11 @@
+{
+"name": "[#8f8592ff]Temperite",
+  "description": "Extremely heat and pressure resistant alloy made from Obsidium and Superheated Slag.",
+  "color": "8f8592", 
+  "hardness": 8,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

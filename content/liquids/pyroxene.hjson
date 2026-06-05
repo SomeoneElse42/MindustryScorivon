@@ -1,0 +1,12 @@
+type: Liquid
+explosiveness: 1.5
+flammability: 1
+heatCapacity: 0.5
+viscosity: 0.5
+temperature: 0.5
+color: ffd568
+name: "Pyroxane"
+gas: true
+description: "A highly flammable and explosive gas. Used in power production and explosive weaponry. Can be separated into its chemical composition."
+details: "Experiments have shown that it's not a pure gas and rather a mixture of multiple gases: Chlorine, Oxygen and Hydrogen. \nFun fact! It was initially named \"Pyroxene but then I found out such a thing already exists :( It's a rock btw. I still didn't rename all the files, would be really annoying to do.\""
+shownPlanets: ["scorivon"]

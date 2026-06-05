@@ -1,0 +1,168 @@
+{
+  "type": "ItemTurret",
+  "name": "Flake",
+  "description": "Fires small shells at ground enemies over terrain and buildings.",
+  "squareSprite": false,
+  "category": "turret",
+  "heatColor": "ff4c00",
+  "reload": 90,
+  "health": 840,
+  "range": 160,
+  "maxAmmo": 50,
+  "rotateSpeed": 2,
+  "size": 2,
+  "shootSound": "shootArtillerySmall",
+  "consumes": { 
+    "coolant": { 
+       "amount": 0.15,
+       "allowGas": true
+    } 
+  },
+  "coolantMultiplier": 10,
+  "inaccuracy": 3,
+  "targetAir": false,
+  "targetGround": true,
+  "ammoTypes": {
+    "chromium": {
+      "speed": 5,
+      "splashDamageRadius": 16,
+      "frontColor": "f6dbff",
+      "backColor": "e79aff",
+      "ammoMultiplier": 2,
+      "hitSize": 8,
+      "type": "ArtilleryBulletType",
+      "width": 12,
+      "splashDamage": 150,
+      "lifetime": 30,
+      "height": 12,
+      "pierce": true,
+      "pierceCap": 2,
+
+      
+      "trailColor": "f6dbff",
+      "trailChance": 0,
+      "trailLength": 8,
+      "trailWidth": 2,
+      "trailInterval": 0,
+      "trailEffect": "missileTrail",
+      "trailRotation": false
+    },
+    "plastic-sheet": {
+      "speed": 5,
+      "splashDamageRadius": 16,
+      "frontColor": "ddf9ff",
+      "backColor": "96e8f9",
+      "ammoMultiplier": 2,
+      "hitSize": 8,
+      "type": "ArtilleryBulletType",
+      "width": 12,
+      "splashDamage": 150,
+      "lifetime": 30,
+      "height": 12,
+      "reloadMultiplier": 1.5,
+
+      
+      "trailColor": "ddf9ff",
+      "trailChance": 0,
+      "trailLength": 8,
+      "trailWidth": 2,
+      "trailInterval": 0,
+      "trailEffect": "missileTrail",
+      "trailRotation": false
+    },
+    "silicon": {
+      "speed": 4,
+      "splashDamageRadius": 16,
+      "frontColor": "ddf1f6",
+      "backColor": "c0effb",
+      "ammoMultiplier": 2,
+      "hitSize": 12,
+      "type": "ArtilleryBulletType",
+      "width": 12,
+      "splashDamage": 180,
+      "lifetime": 45,
+      "height": 12,
+      "homingPower": 0.06,
+      "homingDelay": 10,
+      "inaccuracy": 24,
+
+      
+      "trailColor": "ddf1f6",
+      "trailChance": 0,
+      "trailLength": 8,
+      "trailWidth": 2,
+      "trailInterval": 0,
+      "trailEffect": "missileTrail",
+      "trailRotation": false
+    },
+    "obsidium": {
+      "speed": 3,
+      "splashDamageRadius": 16,
+      "frontColor": "ac78ff",
+      "backColor": "8e46ff",
+      "ammoMultiplier": 2,
+      "hitSize": 12,
+      "type": "ArtilleryBulletType",
+      "width": 12,
+      "splashDamage": 260,
+      "lifetime": 50,
+      "height": 12,
+      "weaveMag": 5,
+      "weaveScale": 3,
+
+      
+      "trailColor": "ac78ff",
+      "trailChance": 0,
+      "trailLength": 8,
+      "trailWidth": 2,
+      "trailInterval": 0,
+      "trailEffect": "missileTrail",
+      "trailRotation": false
+    },
+    "chloride": {
+      "speed": 4,
+      "splashDamageRadius": 16,
+      "frontColor": "ff82ee",
+      "backColor": "f969e5",
+      "ammoMultiplier": 2,
+      "hitSize": 12,
+      "type": "ArtilleryBulletType",
+      "width": 12,
+      "splashDamage": 360,
+      "lifetime": 40,
+      "height": 12,
+      "status": "acid-corroded",
+
+      
+      "trailColor": "ff82ee",
+      "trailChance": 0,
+      "trailLength": 8,
+      "trailWidth": 2,
+      "trailInterval": 0,
+      "trailEffect": "missileTrail",
+      "trailRotation": false
+    }
+    
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "scorivon-"
+  },
+  "requirements": [
+    "cobalt/20",
+    "chromium/40",
+    "silicon/40",
+    "obsidium/20"
+  ],
+  "researchCost": [
+    "cobalt/100",
+    "chromium/200",
+    "silicon/200",
+    "obsidium/100"
+],
+  "research": {
+    "parent": "shift",
+    "requiresUnlock": false,
+    "name": "Flake"
+  }
+}

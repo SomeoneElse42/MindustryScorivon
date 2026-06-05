@@ -1,0 +1,53 @@
+type: tank
+name: Sprite
+description: Fires burning bullets at enemy targets.
+hitSize: 18
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 303541ff
+speed: 1.5
+rotateSpeed: 6
+health: 3100
+armor: 6
+itemCapacity: 0
+treadRects: [
+    {
+        x: -32,
+        y: -27,
+        width: 64,
+        height: 66
+    }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: sprite-weapon
+    reload: 50
+    rotate: true
+    mirror: false
+    shootSound: shootTank
+    rotateSpeed: 3
+    bullet: {
+      type: BasicBulletType
+      frontColor: ebff71
+      backColor: dbff00
+      width: 12
+      height: 12
+      damage: 94
+      lifetime: 60
+      speed: 2
+      status: burning
+
+      trailColor: ebff71
+      trailChance: 0
+      trailLength: 8
+      trailWidth: 2
+      trailInterval: 0
+      trailEffect: missileTrail
+      trailRotation: false
+      }
+      
+    }
+]

@@ -1,0 +1,9 @@
+type: Floor
+speedMultiplier: 0.5
+variants: 0
+cacheLayer: water
+liquidDrop: caldrine
+isLiquid: true
+placeableOn: true
+name: "Caldrine"
+drownTime: 300

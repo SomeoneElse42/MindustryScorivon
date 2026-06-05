@@ -1,0 +1,87 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Electrolysis Generator",
+  "description": "Decomposes Voltite by heating it up with Slag which releases sizeable amounts of power. Requires Cryogel as a coolant.",
+  "category": "power",
+  "ambientSound": "generatespark",
+  "ambientSoundVolume": 0.05,
+  "powerProduction": 12,
+  "consumes": {
+    "items": {
+      "items": [
+          {
+            "item": "voltite",
+            "amount": 1
+          }
+        ]
+      },
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "cryogel",
+          "amount": "0.1"
+        },
+        {
+          "liquid": "slag",
+          "amount": "0.2"
+        }
+      ]
+    }
+  },
+  "itemDuration": 60,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 20
+      },
+    {
+        "item": "chromium",
+        "amount": 20
+     },
+     {
+        "item": "voltite",
+        "amount": 10
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 100
+      },
+    {
+        "item": "chromium",
+        "amount": 100
+     },
+     {
+        "item": "voltite",
+        "amount": 50
+     }
+  ],
+  "itemCapacity": 20,
+  "liquidCapacity": 24,
+  "health": 320,
+  "hasLiquids": true,
+
+  "effectChance": 0.1,
+  "generateEffect": "generatespark",
+  "squareSprite": false,
+  "size": 2,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "slag",
+        "suffix": "-liquid"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

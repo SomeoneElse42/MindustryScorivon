@@ -1,0 +1,12 @@
+type: Liquid
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.5
+viscosity: 0.2
+temperature: 0.5
+color: "ffffca"
+name: "Compressed Air"
+gas: true,
+coolant: true,
+description: "Compressed mixture of various atmospheric gases. Used in pneumatics and as a more inert coolant."
+shownPlanets: ["scorivon"]

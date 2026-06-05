@@ -1,0 +1,127 @@
+{
+  "type": "Separator",
+  "name": "Sieve",
+  "description": "Extracts impurities from sand for further production.",
+  "details": "Originally the primary source of aluminium. It was somewhat consistent but my problem was the random nature. When I implemented silumin, I decided that this is no longer enough and added proper bauxite refinement. I kept the sieve as a joke and nerfed it so badly you shouldn't even consider using it.",
+  "squareSprite": false,
+  "category": "crafting",
+  "results": [
+    {
+      "item": "aluminium",
+      "amount": 6
+    },
+    {
+      "item": "electrum",
+      "amount": 1
+    },
+    {
+      "item": "neodymium",
+      "amount": 4
+    }
+  ],
+  "outputLiquid": {
+    "liquid": "sludge",
+    "amount": 0.2
+  },
+  "size": 2,
+  "hasLiquids": "true",
+  "ambientSound": "loopMachine",
+  "ambientSoundVolume": 0.05,
+  "craftEffect": "pulverizeSmall",
+  "updateEffect": "pulverizeSmall",
+  "health": 140,
+  "craftTime": 600,
+  "consumes": {
+    "power": 0.6,
+    "items": {
+      "items": [
+          {
+            "item": "sand",
+            "amount": 10
+          }
+        ]
+        },
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "water",
+              "amount": 0.2
+            }
+          ]
+        }
+  },
+  "itemCapacity": 20,
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 50
+      },
+      {
+        "item": "plastic-spool",
+        "amount": 10
+      },
+    {
+        "item": "silicon",
+        "amount": 20
+     },
+     {
+        "item": "aluminium",
+        "amount": 20
+     },
+    {
+        "item": "chromium",
+        "amount": 100
+    }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 250
+      },
+      {
+        "item": "plastic-spool",
+        "amount": 50
+      },
+    {
+        "item": "silicon",
+        "amount": 100
+     },
+     {
+        "item": "aluminium",
+        "amount": 100
+     },
+    {
+        "item": "chromium",
+        "amount": 500
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "water",
+        "suffix": "-liquid"
+      },
+      {
+        "type": "DrawBubbles",
+        "color": "7090ea",
+        "sides": 12,
+        "recurrence": 3,
+        "spread": 6,
+        "radius": 1.5,
+        "amount": 20
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

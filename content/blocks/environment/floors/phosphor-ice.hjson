@@ -1,0 +1,8 @@
+type: Floor
+name: "Phosphor Ice"
+variants: 3
+
+attributes: {
+	groundwater: 0.375,
+	heat: 0.25
+}

@@ -1,0 +1,52 @@
+type: tank
+name: Flint
+description: Fires burning bullets at enemy targets.
+hitSize: 12
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 303541ff
+speed: 1.5
+rotateSpeed: 6
+health: 1250
+armor: 4
+itemCapacity: 0
+treadRects: [
+    {
+        x: -16,
+        y: -22,
+        width: 32,
+        height: 42
+    }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: flint-weapon
+    reload: 30
+    rotate: true
+    mirror: false
+    shootSound: shootStell
+    rotateSpeed: 4
+    bullet: {
+      type: BasicBulletType
+      backColor: fff29d
+      frontColor: ffe95c
+      width: 10
+      height: 10
+      damage: 24
+      lifetime: 40
+      speed: 3
+      status: burning
+      trailColor: fff29d
+      trailChance: 0
+      trailLength: 8
+      trailWidth: 2
+      trailInterval: 0
+      trailEffect: missileTrail
+      trailRotation: false
+      }
+      
+    }
+]

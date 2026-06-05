@@ -1,0 +1,11 @@
+type: Liquid
+explosiveness: 0.3
+flammability: 0
+heatCapacity: 0.6
+viscosity: 0.6
+temperature: 5
+color: "7e9a91"
+name: "[#7e9a91ff]Metallic Hydrogen"
+coolant: false
+description: "A form of hydrogen that forms under immense pressure and heat. Conducts electricity without resistance. Unstable."
+shownPlanets: ["scorivon"]

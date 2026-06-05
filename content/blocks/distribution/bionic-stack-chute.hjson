@@ -1,0 +1,36 @@
+type: StackConveyor
+name: Bionic Stack Chute
+description: Transports stacks of items. Can be powered to increase speed.
+size: 1
+health: 120
+
+speed: 0.15
+itemCapacity: 5
+
+outputRouter: true
+hasPower: true
+consumesPower: true
+conductivePower: true
+glowColor: "c9faa6"
+glowAlpha: 0.6
+
+category: distribution
+
+baseEfficiency: 1
+consumes: {
+	power: 0.015
+}
+
+requirements: [
+	bionic-fiber-cable/1
+	plastic-sheet/1
+	voltite/1
+]
+
+research: reinforced-chute
+
+researchCost: [
+	bionic-fiber-cable/5
+	plastic-sheet/5
+	voltite/5
+]

@@ -1,0 +1,37 @@
+
+"type": "Drill",
+"name": "Kinetic Drill",
+"description": "A basic drill that uses physical force to extract resources from the ground.",
+"size": 2,
+"squareSprite": false,
+"category": "production",
+"research": "core-glint",
+"requirements": [
+  "cobalt/20"
+],
+"drillTime": 200,
+"itemCapacity": 4,
+"fogRadius": 2,
+"consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.02,
+      "optional": true,
+      "booster": true
+    }
+},
+
+  "ambientSound": "drill",
+  "ambientSoundVolume": 0.05
+"tier":3
+
+//research
+"researchCost": [
+  "cobalt/80"
+  ],
+research: [
+    parent: core-glint
+    planet: scorivon
+    requiresUnlock: false
+    name: "Kinetic Drill"
+    ]

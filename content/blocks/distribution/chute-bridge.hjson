@@ -1,0 +1,21 @@
+type: DuctBridge
+name: Chute Bridge
+health: 50
+size: 1
+range: 3
+speed: 3
+squareSprite: false
+description: Suspended chute used for crossing terrain and blocks.
+
+solid: false
+category: distribution
+requirements: [
+	cobalt/5,
+	chromium/5
+]
+
+research: chute
+researchCost: [
+	cobalt/25
+	chromium/25
+]

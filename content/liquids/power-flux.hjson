@@ -1,0 +1,13 @@
+type: Liquid
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.5
+viscosity: 0
+temperature: 0.8
+color: 92ffcb
+name: "[#92ffcbff]Power Flux"
+gas: true
+coolant: false
+description: "A strange substance with extremely high, concentrated energy. Used as an alternative power source."
+details: "In order to keep up with the extreme power demand of some machines, electricity is not sufficient. Power flux is significantly more concentrated and efficient."
+shownPlanets: ["scorivon"]

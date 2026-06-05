@@ -1,0 +1,12 @@
+type: Liquid
+explosiveness: 0.1
+flammability: 1
+heatCapacity: 0.5
+viscosity: 0.5
+temperature: 0.6
+color: a9ff38
+radioactivity: 0.2
+name: "[#a9ff38ff]Tritium"
+gas: true
+description: "A radioactive isotope of hydrogen. Used as a fuel in reactors."
+shownPlanets: ["scorivon"]

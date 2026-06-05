@@ -1,0 +1,78 @@
+{
+  "type": "NuclearReactor",
+  "name": "Nuclear Reactor",
+  "description": "Produces large amounts of power using Plutonium. Explodes violently if not cooled with Cryogel.",
+  "category": "power",
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 0.05,
+  "powerProduction": 80,
+  "fuelItem": "plutonium",
+  "itemDuration": 60,
+  "lightColor": "7bf5ff",
+  "heating": 0.001,
+  "coolantPower": 0.04,
+  "explosionRadius": 700,
+  "explosionDamage": 1000,
+  "consumes": {
+    "items": {
+      "items": [
+          {
+            "item": "plutonium",
+            "amount": 1
+          }
+        ]
+      },
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "cryogel",
+          "amount": "0.0625"
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 100
+      },
+    {
+        "item": "aerogel",
+        "amount": 35
+     },
+     {
+        "item": "silicon",
+        "amount": 80
+     },
+     {
+        "item": "voltite",
+        "amount": 20
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 500
+      },
+    {
+        "item": "aerogel",
+        "amount": 175
+     },
+     {
+        "item": "silicon",
+        "amount": 400
+     },
+     {
+        "item": "voltite",
+        "amount": 100
+     }
+  ],
+  "itemCapacity": 20,
+  "liquidCapacity": 24,
+  "health": 560,
+  "hasLiquids": true,
+  "effectChance": 0.1,
+  "generateEffect": "generatespark",
+  "squareSprite": false,
+  "size": 3
+}

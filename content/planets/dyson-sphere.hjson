@@ -1,0 +1,95 @@
+localizedName: Dyson Sphere
+description: Produces large amounts of power with lots of solar panels wrapping around the sun.
+alwaysUnlocked: true
+mesh: [
+{
+  type: NoiseMesh
+  planet: dyson-sphere
+  divisions: 6
+  color1: 6c6affff
+  color2: 00000000
+  radius: 1.2
+  octaves: 3
+  persistence: 1.4
+  scl: 14
+  mag: 0.5
+  seed: 69
+}
+]
+cloudMesh: [
+{
+    type: HexSkyMesh
+    planet: dyson-sphere
+    speed: 2
+    divisions: 6
+    radius: 0.07
+    color: 1010aaff
+    octaves: 2
+    persistence: 0.6
+    scl: 1.1
+    thresh: 0.5
+}
+{
+   type: HexSkyMesh
+   planet: dyson-sphere
+   speed: 0.5
+   radius: 0.12
+   divisions: 6
+   color: aa00e0e3
+   octaves: 3
+   persistence: 0.3
+   scl: 3
+   thresh: 0.2
+  }
+]
+defaultCore: core-glint
+generator: BlankPlanetGenerator
+clearSectorOnLose: true
+orbitTime: 500
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowWaveSimulation: false
+parent: sun
+visible: true
+radius: 4
+atmosphereColor: ffe260
+atmosphereRadIn: 0
+atmosphereRadIn: 0.6
+updateLighting: true
+bloom: true
+sectorSize: 2
+iconColor: ffaa00
+orbitRadius: 0
+orbitOffset: 0
+accessible: false
+allowLaunchToNumbered: false
+defaultEnv: 1
+hot: true
+minZoom: 3
+
+research: {
+	planet: dyson-sphere
+	root: true
+	requiresUnlock: true
+	name: "Dyson Sphere"
+}
+itemWhitelist: [
+  "aerogel",
+  "algae-clump",
+  "chloride",
+  "chromium",
+  "cobalt",
+  "diamond",
+  "electrum",
+  "flash-fuel",
+  "kickstart-core",
+  "obsidium",
+  "phosphor",
+  "plutolux",
+  "plutonium",
+  "sand",
+  "silicon",
+  "sulphur",
+  "superconductor-panel",
+  "voltite",
+]

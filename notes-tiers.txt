@@ -1,0 +1,27 @@
+Tier 1 - Base Resources
+Cobalt, Chromium, Sulphur - early metals and chemical base
+Sand, Silicon - construction and electronics foundation
+
+Tier 2 - Fluids and Cooling
+Water, Caldrine, Cryogel - cooling and early liquid mechanics
+
+Tier 3 - Midgame Industrial
+Obsidium, Electrum, Voltite - alloy, conductive material, and power-focused resource set
+
+Tier 4 - Chemical Expansion
+Pyroxene, Hydrogen, Chlorine, Carbon, Acid - first major gas/liquid chemistry tier
+
+Tier 5 - Nuclear & Synthetic Materials
+Plutonium, Plutolux, Aerogel - nuclear branch and advanced structural materials
+
+Tier 6 - Biological & Reactive
+Algae, Phosphor, Oxygen - biomass and oxidizer tier
+
+Tier 7 - Refined Chemicals & Fuels
+Chloride, Flash Fuel, Lubricant - industrial efficiency and combustion tier
+
+Tier 8 - High-Temperature & Crystal Tier
+Superheated Slag, Diamond - heat-based and ultra-dense refinement tier
+
+Tier 9 - Exotic Energy Tier
+Tritium, Plasma - final-stage fuels for fusion and endgame power generation

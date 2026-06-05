@@ -1,0 +1,11 @@
+{
+"name": "Residue",
+  "description": "The weird dirty solid stuff in sludge. Might contain some useful materials.",
+  "color": "824647", 
+  "hardness": 2,
+  "flammability": 0.1,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

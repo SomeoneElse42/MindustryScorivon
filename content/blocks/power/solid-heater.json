@@ -1,0 +1,70 @@
+{
+    "type": "HeatProducer",
+    "name": "Solid Heater",
+    "description": "Burns solid fuel to produce heat.",
+    "squareSprite": false,
+    "category": "power",
+    "heatOutput": 15,
+    "craftTime": 60,
+    "ambientSound": "loopFire",
+    "ambientSoundVolume": 0.05,
+    "size": 2,
+    "health": 520,
+    "consumes": {
+      "itemFlammable": {}
+    },
+    "itemCapacity": 20,
+    "requirements": [
+        {
+            "item": "chromium",
+            "amount": 5
+          },
+          {
+            "item": "aerogel",
+            "amount": 10
+          },
+        {
+            "item": "obsidium",
+            "amount": 20
+         },
+         {
+            "item": "silicon",
+            "amount": 10
+         }
+    ],
+    "researchCost":[
+        {
+            "item": "chromium",
+            "amount": 25
+          },
+          {
+            "item": "aerogel",
+            "amount": 50
+          },
+        {
+            "item": "obsidium",
+            "amount": 100
+         },
+         {
+            "item": "silicon",
+            "amount": 50
+         }
+    ],
+
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawDefault" 
+        },
+        {
+          "type": "DrawHeatOutput"
+        },
+        {
+          "type": "DrawCrucibleFlame",
+          "flameColor": "ff8827ff",
+          "midColor": "7eb3ffff"
+        }
+      ]
+    }
+} 

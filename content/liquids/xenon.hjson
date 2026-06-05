@@ -1,0 +1,12 @@
+type: Liquid
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.8
+viscosity: 0.5
+temperature: 0.5
+color: 7800ff
+name: "[#7800ffff]Xenon"
+gas: true
+coolant: false
+description: "A noble gas used as a container for reactive elements and in lamps and lasers."
+shownPlanets: ["scorivon"]

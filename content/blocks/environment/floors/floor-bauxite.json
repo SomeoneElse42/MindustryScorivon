@@ -1,0 +1,5 @@
+type: Floor
+name: "Bauxite"
+variants: 3
+tier: 4
+itemDrop: "bauxite"

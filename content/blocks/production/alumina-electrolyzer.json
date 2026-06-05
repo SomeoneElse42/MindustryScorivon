@@ -1,0 +1,95 @@
+{
+  "type": "GenericCrafter",
+  "name": "Alumina Electrolyzer",
+  "description": "Electrolyzes alumina to produce oxygen and elemental aluminium.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquids": [
+    "oxygen/0.025"
+  ],
+  "ambientSound": "loopElectricHum",
+  "ambientSoundVolume": 0.1,
+  "ignoreLiquidFullness": true,
+  "outputItem": "aluminium/1",
+  "size": 3,
+  "hasLiquids": "true",
+  "health": 570,
+  "craftTime": 60,
+  "consumes": {
+    "power": 3,
+    "items": {
+      "items": [
+          {
+            "item": "alumina",
+            "amount": 1
+          }
+      ]
+    }
+  },
+  "itemCapacity": 12,
+  "liquidCapacity": 15,
+  "requirements": [
+    {
+        "item": "cobalt",
+        "amount": 10
+      },
+    {
+        "item": "obsidium",
+        "amount": 20
+     },
+     {
+        "item": "voltite",
+        "amount": 40
+     },
+    {
+        "item": "chromium",
+        "amount": 20
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "cobalt",
+        "amount": 50
+      },
+    {
+        "item": "obsidium",
+        "amount": 100
+     },
+     {
+        "item": "voltite",
+        "amount": 200
+     },
+    {
+        "item": "chromium",
+        "amount": 100
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "oxygen",
+        "padding": 2
+      },
+      {
+        "type": "DrawArcSmelt",
+        "flameColor": "e79aff",
+        "midColor": "f1c3ff"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "e79aff"
+      }
+    ]
+  }
+}

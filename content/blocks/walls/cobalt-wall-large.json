@@ -1,0 +1,19 @@
+"type": "Wall",
+"name": "Large Cobalt Wall",
+"description": "Protects structures from enemy projectiles.",
+"size": 2,
+"category": "defense",
+"requirements": [
+  "cobalt/24"
+]
+"health": 1920,
+"buildTime": 2,
+"researchCost": [
+  "cobalt/100"
+  ],
+research: [
+  parent: cobalt-wall
+  planet: scorivon
+  requiresUnlock: true
+  name: "Scorivon"
+  ]

@@ -1,0 +1,12 @@
+type: Liquid
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.4
+viscosity: 0.8
+temperature: 0.5
+color: 78447e
+name: "Sludge"
+coolant: false
+description: "A somewhat stable byproduct of some reactions. Dispose or recycle to not clog up machines."
+squareSprite: false
+shownPlanets: ["scorivon"]

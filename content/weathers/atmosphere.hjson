@@ -1,0 +1,15 @@
+type: ParticleWeather
+name: Atmosphere
+color: d6b45f
+noiseColor: d6b45f
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 140
+sizeMin: 70
+minAlpha: 0.3
+maxAlpha: 0.3
+density: 2000
+baseSpeed: 0.1
+opacityMultiplier: 0.35
+force: 0

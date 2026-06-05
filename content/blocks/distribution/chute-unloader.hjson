@@ -1,0 +1,19 @@
+type: Unloader
+name: Chute Unloader
+description: "Unloads structures it's placed next to. Can unload from cores."
+size: 1
+
+speed: 3
+
+solid: false
+category: distribution
+
+requirements: [
+	obsidium/10
+	plastic-sheet/20
+]
+
+researchCost: [
+	obsidium/50
+	plastic-sheet/100
+]

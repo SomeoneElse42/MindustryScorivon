@@ -1,0 +1,144 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Blast Reactor",
+  "description": "Produces large amounts of power from controlled explosions. Exploses violently if excess slag is not removed.",
+  "category": "power",
+  "ambientSound": "loopPulse",
+  "ambientSoundVolume": 0.2,
+  "powerProduction": 152,
+  "explodeOnFull": true,
+  "explosionRadius": 1200,
+  "explosionDamage": 5000,
+  "warmupSpeed": 0.01,
+  "consumes": {
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "superheated-slag",
+          "amount": "0.2"
+        },
+        {
+          "liquid": "pyroxene",
+          "amount": "0.2"
+        },
+        {
+          "liquid": "cryogel",
+          "amount": "0.05"
+        }
+      ]
+    }
+  },
+  "outputLiquid": "slag/0.125",
+  "itemDuration": 60,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 175
+      },
+    {
+        "item": "cobalt",
+        "amount": 80
+     },
+     {
+        "item": "silicon",
+        "amount": 10
+     },
+     {
+        "item": "aerogel",
+        "amount": 80
+     },
+     {
+        "item": "plastic-sheet",
+        "amount": 50
+     },
+     {
+        "item": "corundum",
+        "amount": 50
+     },
+     {
+        "item": "voltite",
+        "amount": 25
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 875
+      },
+    {
+        "item": "cobalt",
+        "amount": 400
+     },
+     {
+        "item": "silicon",
+        "amount": 50
+     },
+     {
+        "item": "aerogel",
+        "amount": 400
+     },
+     {
+        "item": "plastic-sheet",
+        "amount": 250
+     },
+     {
+        "item": "corundum",
+        "amount": 250
+     },
+     {
+        "item": "voltite",
+        "amount": 125
+     }
+  ],
+  "itemCapacity": 20,
+  "liquidCapacity": 120,
+  "health": 1250,
+  "hasLiquids": true,
+
+  "effectChance": 0.0,
+  "generateEffect": "generatespark",
+  "squareSprite": false,
+  "size": 4,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "superheated-slag",
+        "padding": 1.8
+      },
+      {
+        "type": "DrawBubbles",
+        "color": "eeffff",
+        "sides": 12,
+        "recurrence": 3,
+        "spread": 6,
+        "radius": 1.5,
+        "amount": 20
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 6
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "eeffff",
+        "alpha": 0.4
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow-slag",
+        "color": "80ffff"
+      }
+    ]
+  }
+}

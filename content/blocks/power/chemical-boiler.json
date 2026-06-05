@@ -1,0 +1,105 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Chemical Boiler",
+  "description": "Produces power by boiling water using chlorine. Outputs acid as a byproduct.",
+  "category": "power",
+  "ambientSound": "generatespark",
+  "ambientSoundVolume": 0.05,
+  "powerProduction": 32,
+  "consumes": {
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "water",
+          "amount": "0.4"
+        },
+        {
+          "liquid": "chlorine",
+          "amount": "0.05"
+        }
+      ]
+    }
+  },
+  "outputLiquid": "acid/0.15",
+  "itemDuration": 60,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 35
+      },
+    {
+        "item": "cobalt",
+        "amount": 15
+     },
+     {
+        "item": "silicon",
+        "amount": 10
+     },
+     {
+        "item": "plastic-sheet",
+        "amount": 10
+     },
+     {
+        "item": "voltite",
+        "amount": 5
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 175
+      },
+    {
+        "item": "cobalt",
+        "amount": 75
+     },
+     {
+        "item": "silicon",
+        "amount": 50
+     },
+     {
+        "item": "plastic-sheet",
+        "amount": 50
+     },
+     {
+        "item": "voltite",
+        "amount": 25
+     }
+  ],
+  "itemCapacity": 20,
+  "liquidCapacity": 24,
+  "health": 320,
+  "hasLiquids": true,
+
+  "effectChance": 0.1,
+  "generateEffect": "generatespark",
+  "squareSprite": false,
+  "size": 3,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidTile",
+        "padding": 2,
+         "drawLiquid": "acid"
+      },
+      {
+        "type": "DrawBubbles",
+        "color": "b0ff65",
+        "sides": 12,
+        "recurrence": 3,
+        "spread": 6,
+        "radius": 1.5,
+        "amount": 20
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

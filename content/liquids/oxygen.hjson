@@ -1,0 +1,11 @@
+type: Liquid
+explosiveness: 0.5
+flammability: 0.8
+heatCapacity: 0.3
+viscosity: 0.4
+temperature: 0.5
+color: ff6753
+name: "Oxygen"
+gas: true
+description: "A reactive gas produced by algae. Used as a potent oxidizer for combustion and chemical reactions."
+shownPlanets: ["scorivon"]

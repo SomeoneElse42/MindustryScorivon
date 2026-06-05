@@ -1,0 +1,121 @@
+localizedName: Scorivon
+description: A hot, volcanic planet with barely any life left.
+alwaysUnlocked: true
+mesh: [
+{
+  type: NoiseMesh
+  planet: scorivon
+  divisions: 6
+  color1: 6a6761
+  color2: ae6565
+  radius: 1.2
+  octaves: 3
+  persistence: 1.4
+  scl: 14
+  mag: 0.5
+  seed: 69
+}
+{
+  type: NoiseMesh
+  planet: scorivon
+  divisions: 6
+  color1: 181829
+  color2: c7e686
+  radius: 1.2
+  octaves: 4
+  persistence: 0.5
+  scl: 14
+  mag: 0.4
+}
+]
+cloudMesh: [
+  {
+    type: HexSkyMesh
+    speed: 2
+    divisions: 6
+    radius: 0.07
+    color: e3e3ee60
+    octaves: 2
+    persistence: 0.6
+    scl: 1.1
+    thresh: 0.5
+  },
+  {
+    type: HexSkyMesh
+    speed: 0.2
+    divisions: 6
+    radius: 0.1
+    color: a5f06f60
+    octaves: 1
+    persistence: 0.1
+    scl: 1.1
+    thresh: 0.5
+  },
+  {
+    type: HexSkyMesh
+    speed: 3
+    divisions: 6
+    radius: 0.12
+    color: ffd56860
+    octaves: 5
+    persistence: 0.8
+    scl: 1.1
+    thresh: 0.5
+  }
+]
+defaultCore: core-glint
+generator: BlankPlanetGenerator
+clearSectorOnLose: true
+orbitTime: 500
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowWaveSimulation: true
+parent: sun
+visible: true
+radius: 1.2
+atmosphereColor: ffe260
+updateLighting: true
+bloom: true
+sectorSize: 2
+iconColor: bf7b00
+orbitRadius: 40
+orbitOffset: 130
+accessible: true
+allowLaunchToNumbered: false
+defaultEnv: 1
+hot: true
+defaultAttributes: {
+  heat: 0.8
+}
+
+research: {
+	planet: scorivon
+	root: true
+	requiresUnlock: false
+	name: "Scorivon"
+}
+itemWhitelist: [
+  "aerogel",
+  "algae-clump",
+  "aluminium",
+  "chloride",
+  "chromium",
+  "cobalt",
+  "diamond",
+  "electrum",
+  "flash-fuel",
+  "kickstart-core",
+  "neodymium",
+  "obsidium",
+  "phosphor",
+  "plastic-sheet",
+  "plastic-spool",
+  "plutolux",
+  "plutonium",
+  "sand",
+  "silicon",
+  "sulphur",
+  "superconductor-panel",
+  "voltite",
+  
+]

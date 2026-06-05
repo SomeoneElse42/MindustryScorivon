@@ -1,0 +1,7 @@
+type: Floor
+name: "Algae Sandstone"
+variants: 3
+
+attributes: {
+	groundwater: 0.3,
+}

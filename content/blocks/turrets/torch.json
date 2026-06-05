@@ -1,0 +1,94 @@
+{
+  "type": "ContinuousLiquidTurret",
+  "name": "Torch",
+  "description": "Fires a continuous, piercing flame at enemies.",
+  "squareSprite": false,
+  "category": "turret",
+  "heatColor": "ff4c00cc",
+  "liquidConsumed": 0.4,
+  "liquidCapacity": 92,
+  "health": 920,
+  "range": 160,
+  "maxAmmo": 50,
+  "rotateSpeed": 2,
+  "size": 3,
+  "loopSound": "shootSublimate",
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "pyroxene": {
+      "type": "ContinuousFlameBulletType",
+      "width": 5,
+      "oscMag": 0.1,
+      "oscScl": 1.5,
+      "length": 160,
+      "damage": 12,
+      "pierceCap": 6,
+      "colors": ["ffd568", "ffd871", "ffe6a4", "ffedc0"],
+      "flareColor": "fff5db",
+      "buildingDamageMultiplier": 0.4,
+      "hitColor": "fff5db",
+      "ammoMultiplier": 2,
+      "status": "burning"
+  },
+  "carbon": {
+      "type": "ContinuousFlameBulletType",
+      "width": 4,
+      "oscMag": 0.05,
+      "oscScl": 1.5,
+      "rangeChange": -20,
+      "length": 140,
+      "damage": 10,
+      "pierceCap": 4,
+      "colors": ["650000", "ff0000", "ff9f9f"],
+      "flareColor": "ff9f9f",
+      "buildingDamageMultiplier": 0.4,
+      "hitColor": "ff9f9f",
+      "status": "burning"
+  },
+  "hydrogen": {
+      "type": "ContinuousFlameBulletType",
+      "rangeChange": 40,
+      "length": 200,
+      "damage": 38,
+      "pierceCap": 8,
+      "colors": ["97a5f7", "afbaff", "d1e4ff"],
+      "flareColor": "d1e4ff",
+      "buildingDamageMultiplier": 0.4,
+      "hitColor": "d1e4ffs",
+      "status": "melting"
+  },
+  "chlorine": {
+      "type": "ContinuousFlameBulletType",
+      "damage": 22,
+      "length": 160,
+      "pierceCap": 8,
+      "colors": ["dbff00", "ebff71", "f6ffbc"],
+      "flareColor": "f6ffbc",
+      "buildingDamageMultiplier": 0.4,
+      "hitColor": "f6ffbc",
+      "status": "acid-corroded"
+  }
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "scorivon-"
+  },
+  "requirements": [
+    "plastic-sheet/40",
+    "chromium/20",
+    "silicon/10",
+    "obsidium/40"
+  ],
+  "researchCost": [
+    "plastic-sheet/200",
+    "chromium/100",
+    "silicon/50",
+    "obsidium/200"
+],
+  "research": {
+    "parent": "flake",
+    "requiresUnlock": false,
+    "name": "Torch"
+  }
+}

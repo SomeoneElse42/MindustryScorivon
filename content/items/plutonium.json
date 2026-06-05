@@ -1,0 +1,11 @@
+{
+"name": "[#7bf5ffff]Plutonium",
+  "description": "A highly radioactive metal but not that durable.",
+  "color": "7bf5ff", 
+  "hardness": 7,
+  "flammability": 0,
+  "explosiveness": 2,
+  "radioactivity": 1.5,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

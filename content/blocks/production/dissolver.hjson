@@ -1,0 +1,57 @@
+type: ItemIncinerator
+name: Dissolver
+effect: none
+consumes: {
+  liquids: {
+    liquids: [
+      {
+        liquid: acid,
+        amount: 0.1
+      }
+    ]
+  }
+},
+ambientSound: loopExtract,
+ambientSoundVolume: 0.05,
+squareSprite: false
+category: crafting
+description: Dissolves any inputted items in acid.
+requirements: [
+  cobalt/5
+  obsidium/10
+  chromium/5
+  plastic-sheet/10
+]
+researchCost: [
+  cobalt/25
+  obsidium/50
+  chromium/25
+  plastic-sheet/50
+]
+drawer: {
+  type: DrawMulti,
+    drawers: [
+      {
+        type: DrawRegion,
+        suffix: -bottom
+      },
+        
+      {
+        type: DrawLiquidTile,
+        drawLiquid: acid,
+        padding: 1
+      },
+      {
+        type: DrawBubbles,
+        color: b0ff65,
+        sides: 12,
+        recurrence: 3,
+        spread: 6,
+        radius: 1.5,
+        amount: 20
+      },
+      {
+        type: DrawDefault
+      }
+    ]
+}

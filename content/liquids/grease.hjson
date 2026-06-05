@@ -1,0 +1,10 @@
+type: Liquid
+explosiveness: 0.2
+flammability: 0.8
+heatCapacity: 0.5
+viscosity: 0.6
+temperature: 0.5
+color: ffe400
+name: "Grease"
+description: "Used to make plastic, and reduce friction between parts and make them glide better and more efficiently. Moderately flammable."
+shownPlanets: ["scorivon"]

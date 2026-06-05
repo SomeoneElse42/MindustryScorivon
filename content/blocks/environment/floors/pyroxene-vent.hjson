@@ -1,0 +1,42 @@
+type: SteamVent
+name: "Pyroxene Vent"
+variants: 2
+blendGroup: sulphuric-stone
+parent: sulphuric-stone
+
+effectSpacing: 25
+effect:{
+    type: MultiEffect
+    effects: [
+        {
+            type: ParticleEffect
+            lifetime: 200
+            length: 35
+            baseLength: 4
+            sizeFrom: 3
+            sizeTo: 5
+            colorFrom: ffd56860
+            colorTo: 7cb2ff00
+            cone: 35
+            offset: 20
+						sizeInterp: slope
+        },
+				{
+            type: ParticleEffect
+            lifetime: 200
+            length: 35
+            baseLength: 4
+            sizeFrom: 3
+            sizeTo: 5
+            colorFrom: ffd56860
+            colorTo: 7cb2ff00
+            cone: 35
+            offset: 20
+						sizeInterp: slope
+        }
+    ]
+}
+
+attributes: {
+	pyroxene: 1
+}

@@ -1,0 +1,51 @@
+{
+	"type": "battery",
+	"name": "Accumulator",
+  "description": "Stores power for later use.",
+	"size": 2,
+	"health": 520,
+	"fullLightColor": "ffed74",
+	"emptyLightColor": "ffaf00",
+	"category": "power",
+	"conductivePower": true,
+	"requirements": [
+    {
+        "item": "obsidium",
+        "amount": 10
+      },
+     {
+        "item": "chromium",
+        "amount": 40
+     },
+     {
+        "item": "plastic-sheet",
+        "amount": 20
+     },
+     {
+        "item": "electrum",
+        "amount": 40
+     }
+  ],
+	"consumes": {
+		"powerBuffered": 75000
+	},
+	"research": "optical-node",
+	"researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 50
+      },
+     {
+        "item": "chromium",
+        "amount": 200
+     },
+     {
+        "item": "plastic-sheet",
+        "amount": 100
+     },
+     {
+        "item": "electrum",
+        "amount": 200
+     }
+  ]
+}

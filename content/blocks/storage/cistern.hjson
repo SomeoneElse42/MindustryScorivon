@@ -1,0 +1,21 @@
+type: StorageBlock
+health: 420
+size: 2
+name: Cistern
+
+solid: true
+itemCapacity: 250
+
+squareSprite: false
+coreMerge: true
+
+research: {
+	parent: core-glint
+}
+
+requirements: [
+	plastic-sheet/80
+	obsidium/40
+]
+
+category: effect

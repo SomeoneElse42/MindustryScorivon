@@ -1,0 +1,35 @@
+name: "Tread Constructor"
+description: "Constructs flint units with treads to move over simple terrain and attack enemies."
+type: UnitFactory
+health: 1050
+size: 3
+configurable: false
+consumes: {
+power: 3.2
+}
+plans: [
+  {
+    unit: flint
+    requirements: [
+      cobalt/60
+      silicon/20
+    ]
+    time: 1200
+  }
+]
+category: units
+requirements: [
+  silicon/60
+  cobalt/100
+  obsidium/200
+  chromium/100
+]
+research: {
+parent: core-glint
+}
+researchCost: [
+  silicon/300
+  cobalt/500
+  obsidium/1000
+  chromium/500
+],

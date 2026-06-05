@@ -1,0 +1,76 @@
+{
+  "type": "AttributeCrafter",
+  "name": "Bioreactor",
+  "description": "Cultivates Algae for Oxygen and Fuel production.",
+    "details": "This technology recovers the traces of a phosphor producing algae species has been found below the immediate surface of Scorivon, in areas where there is still any groundwater left. These places also have the most phosphor-rich ground, likely from the algae going through a mass extinction at some point in history.",
+  "size": 2,
+  "health": 220,
+  "squareSprite": false,
+  "attribute": "groundwater",
+  "minEfficiency": 0.2,
+  "baseEfficiency": 0,
+  "maxBoost": 2,
+  "displayEfficiency": true,
+  "category": "production",
+  "requirements": [
+    "cobalt/40",
+    "silicon/80",
+    "obsidium/100",
+    "chromium/20"
+  ],
+  "researchCost": [
+    "cobalt/200",
+    "silicon/400",
+    "obsidium/500",
+    "chromium/100"
+  ],
+  "research": "core-glint",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "padding": 2
+      },
+
+      {
+        "type": "DrawCultivator",
+        "plantColor": "89df4c",
+        "plantColorLight": "a5f06f",
+        "bottomColor": "2c1e32",
+        "suffix": "-middle"
+      },
+      
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "craftTime": 180,
+  "ambientSound": "loopCultivator",
+  "ambientSoundVolume": 0.05,
+  "hasLiquids": true,
+  "outputItem": "algae-clump/3",
+  "consumes": {
+    "power": 2,
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "water",
+          "amount": 0.1
+        },
+        {
+          "liquid": "carbon",
+          "amount": 0.025
+        }
+      ]
+    }
+  },
+  "liquidCapacity": 50
+}

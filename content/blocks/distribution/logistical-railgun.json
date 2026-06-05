@@ -1,0 +1,68 @@
+{
+  "type": "MassDriver",
+  "name": "Logistical Railgun",
+  "health": 450,
+  "description": "Launches solid resources over larger distances and terrain.",
+  "itemCapacity": 150,
+  "reload": 200,
+  "range": 750,
+  "size": 3,
+  "speed": 3,
+  "squareSprite": false,
+  "consumes": {
+    "power": 7
+  },
+  "requirements": [
+    {
+      "item": "obsidium",
+      "amount": 80
+    },  
+    {
+      "item": "cobalt",
+      "amount": 40
+    },
+    {
+      "item": "silumin",
+      "amount": 120
+    },
+    {
+      "item": "neodymium",
+      "amount": 40
+    },
+    {
+      "item": "corundum",
+      "amount": 20
+    },
+    {
+      "item": "voltite",
+      "amount": 60
+    }
+  ],
+  "researchCost": [
+    {
+      "item": "obsidium",
+      "amount": 400
+    },  
+    {
+      "item": "cobalt",
+      "amount": 200
+    },
+    {
+      "item": "silumin",
+      "amount": 600
+    },
+    {
+      "item": "neodymium",
+      "amount": 200
+    },
+    {
+      "item": "corundum",
+      "amount": 100
+    },
+    {
+      "item": "voltite",
+      "amount": 300
+    }
+  ],
+  "category": "distribution"
+}

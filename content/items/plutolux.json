@@ -1,0 +1,11 @@
+{
+"name": "[#00ffd3ff]Plutolux",
+  "description": "A potent nuclear fuel. Mostly used for power production.",
+  "color": "00ffd3", 
+  "hardness": 2,
+  "flammability": 0,
+  "explosiveness": 0.7,
+  "radioactivity": 0.8,
+  "charge": 1.2,
+  "shownPlanets": ["scorivon"]
+}

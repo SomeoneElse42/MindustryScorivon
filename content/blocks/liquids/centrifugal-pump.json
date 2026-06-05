@@ -1,0 +1,24 @@
+{
+  "name": "Centrifugal Pump",
+  "type": "pump",
+  "description": "Pumps liquids using centrifugal force.",
+  "size": 2,
+  "health": 240,
+  "squareSprite": false,
+  "category": "liquid",
+  "requirements": [
+    "cobalt/40",
+    "chromium/80"
+  ],
+  "researchCost": [
+    "cobalt/200",
+    "chromium/400"
+  ],
+  "research": "groundwater-extractor",
+  "craftTime": 60,
+  "consumes": {
+    "power": 0.2
+  },
+  "liquidCapacity": 120,
+  "pumpAmount": 0.1
+}

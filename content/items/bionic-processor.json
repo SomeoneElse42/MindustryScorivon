@@ -1,0 +1,12 @@
+{
+"name": "[#a5f06fff]Bionic Processor",
+  "description": "Processes information using semiconductors and intelligent algae.",
+  "details": "Phosphor algae have shown signs of intelligence, and use light to communicate, similarly to how neurons use electricity. Combining their processing power with silicon semiconductors allows for a much more powerful processor.",
+  "color": "a5f06f", 
+  "hardness": 4,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

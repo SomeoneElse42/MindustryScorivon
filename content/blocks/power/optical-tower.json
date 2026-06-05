@@ -1,0 +1,42 @@
+{
+  "type": "PowerNode",
+  "health": "80",
+  "laserRange": 50,
+  "maxNodes": 2,
+  "size": 2,
+  "name": "Optical Tower",
+  "description": "A long range optical node. Has fewer connections.",
+  "squareSprite": "false",
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 3
+      },
+      {
+        "item": "bionic-fiber-cable",
+        "amount": 3
+      },
+    {
+        "item": "chromium",
+        "amount": 5
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 15
+      },
+      {
+        "item": "bionic-fiber-cable",
+        "amount": 15
+      },
+    {
+        "item": "chromium",
+        "amount": 25
+     }
+  ],
+  "category": "power",
+  "powerCapacity": "1000",
+  "laserColor1": "f1c3ff",
+  "laserColor2": "e79aff"
+}

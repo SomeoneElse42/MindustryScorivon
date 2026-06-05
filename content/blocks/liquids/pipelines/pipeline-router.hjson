@@ -1,0 +1,21 @@
+type: LiquidRouter
+name: Pipeline Router
+size: 1
+health: 120
+placeableLiquid: true
+liquidCapacity: 100
+liquidPressure: 10
+squareSprite: false
+liquidPadding: 2
+
+category: liquid
+requirements: [
+	chromium/5
+  cobalt/3
+]
+
+research: pipeline
+researchCost: [
+	chromium/25
+  cobalt/15
+]

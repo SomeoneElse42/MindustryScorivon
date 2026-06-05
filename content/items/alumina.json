@@ -1,0 +1,11 @@
+{
+"name": "Alumina",
+  "description": "Amorphous aluminium oxide. Can be processed into pure aluminium or corundum.",
+  "color": "ffe7ff", 
+  "hardness": 4,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

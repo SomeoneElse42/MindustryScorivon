@@ -1,0 +1,11 @@
+type: Liquid
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.4
+viscosity: 0.5
+temperature: 0.5
+color: 71e700
+name: "Acid"
+coolant: false
+description: "A highly corrosive liquid that's used in weaponry and chemical processing."
+shownPlanets: ["scorivon"]

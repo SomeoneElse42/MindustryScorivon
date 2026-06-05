@@ -1,0 +1,11 @@
+{
+"name": "Bauxite",
+  "description": "An aluminium containing rock. Can be refined.",
+  "color": "824e46", 
+  "hardness": 4,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

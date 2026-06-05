@@ -1,0 +1,14 @@
+type: LiquidBridge
+name: Long Pipeline Bridge
+health: 120
+description: Long suspended pipeline that can transport liquids over much larger distances.
+arrowSpacing: 5
+range: 9
+hasPower: false
+category: liquid
+research: pipeline
+requirements: [
+  chromium/6
+  cobalt/2
+  obsidium/2
+]

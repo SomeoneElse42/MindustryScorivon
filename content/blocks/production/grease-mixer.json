@@ -1,0 +1,84 @@
+{
+  "type": "GenericCrafter",
+  "name": "Grease Mixer",
+  "description": "Mixes a Grease that can be used as a lubricant or polymerized into plastic.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "grease",
+    "amount": 0.25
+  },
+  "size": 2,
+  "hasLiquids": true,
+  "health": 640,
+  "craftTime": 60,
+  "consumes": {
+    "power": 3,
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "carbon",
+              "amount": 0.1
+            },
+            {
+              "liquid": "hydrogen",
+              "amount": "0.15"
+            }
+          ]
+        }
+  },
+  "itemCapacity": 20,
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "cobalt",
+        "amount": 50
+      },
+    {
+        "item": "obsidium",
+        "amount": 20
+      },
+    {
+        "item": "silicon",
+        "amount": 50
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "cobalt",
+        "amount": 250
+      },
+      {
+        "item": "obsidium",
+        "amount": 100
+      },
+    {
+        "item": "silicon",
+        "amount": 250
+     }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "grease",
+        "padding": 2
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 5
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+"name": "Plastic Sheet",
+  "description": "A cheap, lightweight, chemically resistant and fairly durable material commonly used for structure and containers.",
+  "color": "ddf9ff", 
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 0.0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

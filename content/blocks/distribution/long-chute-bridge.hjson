@@ -1,0 +1,23 @@
+type: DuctBridge
+name: Long Chute Bridge
+size: 1
+range: 12
+speed: 3
+squareSprite: false
+description: A longer Chute Bridge that can move items across much larger distances.
+health: 320
+
+solid: false
+category: distribution
+requirements: [
+	cobalt/5,
+	chromium/2,
+	obsidium/10
+]
+
+research: chute-bridge
+researchCost: [
+	cobalt/25
+	chromium/10
+	obsidium/50
+]

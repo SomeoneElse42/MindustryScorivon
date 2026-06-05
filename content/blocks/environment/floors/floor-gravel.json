@@ -1,0 +1,6 @@
+type: Floor
+name: "Volcanic Gravel"
+variants: 3
+tier: 1
+itemDrop: "sand"
+playerUnmineable: true

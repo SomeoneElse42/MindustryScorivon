@@ -1,0 +1,108 @@
+{
+    "type": "GenericCrafter",
+    "name": "Bionc Cable Roller",
+    "description": "Rolls optic fiber cables out of algae.",
+    "squareSprite": false,
+    "category": "crafting",
+    "outputItem": {
+        "item": "bionic-fiber-cable",
+        "amount": 2
+    },
+    "craftTime": 60,
+    "ambientSound": "loopHum",
+    "ambientSoundVolume": 0.05,
+    "size": 2,
+    "health": 740,
+    "consumes": {
+        "power": 5,
+        "items": {
+            "items": [
+                {
+                    "item": "algae-clump",
+                    "amount": 2
+                  },
+                  {
+                    "item": "plastic-sheet",
+                    "amount": 1
+                  },
+                  {
+                    "item": "electrum",
+                    "amount": 1
+                  }
+            ]
+        }
+    },
+    "itemCapacity": 20,
+    "requirements": [
+        {
+            "item": "chromium",
+            "amount": 5
+          },
+        {
+            "item": "obsidium",
+            "amount": 20
+         },
+         {
+            "item": "aluminium",
+            "amount": 20
+         },
+         {
+            "item": "cobalt",
+            "amount": 10
+         },
+         {
+            "item": "silicon",
+            "amount": 10
+         }
+    ],
+    "researchCost":[
+        {
+            "item": "chromium",
+            "amount": 25
+          },
+        {
+            "item": "obsidium",
+            "amount": 100
+         },
+         {
+            "item": "aluminium",
+            "amount": 100
+         },
+         {
+            "item": "cobalt",
+            "amount": 50
+         },
+         {
+            "item": "silicon",
+            "amount": 50
+         }
+    ],
+
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawRegion",
+          "suffix": "-bottom" 
+        },
+        {
+          "type": "DrawRegion" ,
+          "suffix": "-mid"
+        },
+        {
+          "type": "DrawGlowRegion",
+          "suffix": "-glow",
+          "color": "a5f06f",
+          "alpha": 0.75
+        },
+        {
+          "type": "DrawBlurSpin",
+          "suffix": "-rotator",
+          "rotateSpeed": 2
+        },
+        {
+          "type": "DrawDefault" 
+        }
+      ]
+    }
+} 

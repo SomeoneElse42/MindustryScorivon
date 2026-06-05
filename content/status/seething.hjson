@@ -1,0 +1,19 @@
+
+name: Seething
+color: c0ffff
+damageMultiplier: 0.8
+speedMultiplier: 0.6
+healthMultiplier: 0.8
+damage: 0.9
+outline: true
+effect: {
+  type: ParticleEffect
+  colorFrom: 80ffff
+  colorTo: eeffff
+  particles: 6
+  sizeFrom: 2
+  sizeTo: 0
+  lightColor: c0ffff
+}
+affinities: []
+opposites: [freezing, wet]

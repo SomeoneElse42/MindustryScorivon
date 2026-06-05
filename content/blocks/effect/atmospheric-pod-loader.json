@@ -1,0 +1,39 @@
+{
+  "type": "LaunchPad",
+  "health": 1200,
+  "name": "Atmospheric Pod Loader",
+  "description": "Loads and launches atmospheric pods to drop points in other sectors. Requires bioflash as fuel.",
+  "launchTime": 1200,
+  "itemCapacity": 100,
+  "squareSprite": false,
+  "size": 4,
+  "consumes": {
+    "power": 24,
+    "liquid": {
+      "liquid": "bioflash",
+      "amount": 0.5
+    }
+  },
+  "lightColor": "ed6d9aff",
+  "lightSteps": 4,
+  "category": "effect",
+  "research": "logistical-railgun",
+  "researchCost": [
+    "obsidium/500",
+    "aluminium/250",
+    "silumin/500",
+    "corundum/100",
+    "temperite/250",
+    "plastic-sheet/500",
+    "bionic-processor/100"
+  ],
+  "requirements": [
+    "obsidium/100",
+    "aluminium/50",
+    "silumin/100",
+    "corundum/20",
+    "temperite/50",
+    "plastic-sheet/100",
+    "bionic-processor/20"
+  ]
+}

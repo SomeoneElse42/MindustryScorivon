@@ -1,0 +1,81 @@
+{
+  "type": "GenericCrafter",
+  "name": "Flash Mixer",
+  "description": "Mixes Flash Fuel from Phosphor and Sulphur.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputItem": {
+        "item": "flash-fuel",
+        "amount": 2
+    },
+  "size": 2,
+  "craftEffect": "pulverizeSmall",
+  "updateEffect": "pulverizeSmall",
+  "hasLiquids": "true",
+  "ambientSound": "hum",
+  "ambientSoundVolume": 0.2,
+  "health": 240,
+  "craftTime": 120,
+  "consumes": {
+    "power": 10,
+    "items": {
+      "items": [
+          {
+            "item": "sulphur",
+            "amount": 1
+          },
+          {
+            "item": "phosphor",
+            "amount": 1
+          }
+        ]
+        }
+  },
+  "itemCapacity": 20,
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 50
+      },
+    {
+        "item": "silicon",
+        "amount": 30
+     },
+     {
+        "item": "cobalt",
+        "amount": 70
+     },
+    {
+        "item": "chromium",
+        "amount": 80
+    }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 250
+      },
+    {
+        "item": "silicon",
+        "amount": 150
+     },
+    {
+        "item": "cobalt",
+        "amount": 350
+    },
+    {
+        "item": "chromium",
+        "amount": 400
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+type: RainWeather
+name: Heavy Acid Rain
+status: light-corroded
+color: 67d200
+liquid: acid
+density: 600
+yspeed: 7.5
+xspeed: 3

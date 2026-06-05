@@ -1,0 +1,12 @@
+{
+"name": "[#ead6ffff]Exorium",
+  "description": "A very strange material that's bursting with concentrated power. Extremely versatile for complex machinery. Can channel power from the [#fce476]dyson sphere. []Unstable.",
+  "details": "[#ead6ff]Exorium []is a paradox. It's made from extremely volatile and partially radioactive materials, and it is itself extremely radioactive, but the amount of radiation it emits is not proportional to its stability. It's remarkably stable, considering it's still extremely radioactive and it's even usable as a proper material. As that, it's nearly indestructible.",
+  "color": "ead6ff", 
+  "hardness": 20,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 2,
+  "charge": 2,
+  "shownPlanets": ["scorivon"]
+}

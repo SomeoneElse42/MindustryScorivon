@@ -1,0 +1,80 @@
+{
+  "type": "GenericCrafter",
+  "name": "Plastic Press",
+  "description": "Presses Plastic into sheets for construction.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputItem": {
+        "item": "plastic-sheet",
+        "amount": 6
+    },
+  "size": 2,
+  "hasLiquids": "true",
+  "ambientSound": "hum",
+  "ambientSoundVolume": 0.05,
+  "health": 240,
+  "craftTime": 60,
+  "consumes": {
+    "power": 1.2,
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "molten-plastic",
+              "amount": 0.125
+            }
+          ]
+        }
+  },
+  "itemCapacity": 20,
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 50
+      },
+    {
+        "item": "silicon",
+        "amount": 20
+     },
+    {
+        "item": "chromium",
+        "amount": 80
+    }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 250
+      },
+    {
+        "item": "silicon",
+        "amount": 100
+     },
+    {
+        "item": "chromium",
+        "amount": 400
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawPistons",
+        "sinMag": 2,
+        "sinScl": 3
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "molten-plastic"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

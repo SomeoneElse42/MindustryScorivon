@@ -1,0 +1,10 @@
+type: Floor
+speedMultiplier: 0.2
+variants: 0
+cacheLayer: water
+liquidDrop: metallic-hydrogen
+isLiquid: true
+placeableOn: true
+name: "Metallic Hydrogen"
+status: "seething"
+drownTime: 600

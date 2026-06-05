@@ -1,0 +1,77 @@
+{
+  "type": "GenericCrafter",
+  "name": "Polymerization Vat",
+  "description": "Polymerizes Plastic from the compounds in the inputted Grease. Cast or Extrude to use it as a solid material.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "molten-plastic",
+    "amount": 0.25
+  },
+  "size": 2,
+  "hasLiquids": "true",
+  "ambientSound": "hum",
+  "ambientSoundVolume": 0.05,
+  "health": 240,
+  "craftTime": 60,
+  "consumes": {
+    "power": 2.6,
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "grease",
+              "amount": 0.25
+            }
+          ]
+        }
+  },
+  "itemCapacity": 20,
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 100
+      },
+    {
+        "item": "silicon",
+        "amount": 10
+     },
+    {
+        "item": "chromium",
+        "amount": 20
+    }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 500
+      },
+    {
+        "item": "silicon",
+        "amount": 50
+     },
+    {
+        "item": "chromium",
+        "amount": 100
+    }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "molten-plastic",
+        "padding": 2
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "type": "NuclearReactor",
+  "name": "Discharge Reactor",
+  "description": "Produces large amounts of power using Plutolux. Significantly safer than the Nuclear Reactor. Explodes if not cooled sufficiently with Cryogel.",
+  "details": "Ever wondered what happens if you combine a Nuclear Reactor with an Electrolyisis Generator? You get the Discharge Reactor. This one consumes Plutolux, an overcharged alloy of Voltite and Plutonium. Handle with care.",
+  "category": "power",
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 0.05,
+  "powerProduction": 110,
+  "fuelItem": "plutolux",
+  "itemDuration": 180,
+  "lightColor": "00ffd3",
+  "heating": 0.001,
+  "coolantPower": 0.06,
+  "explosionRadius": 300,
+  "explosionDamage": 1000,
+  "consumes": {
+    "items": {
+      "items": [
+          {
+            "item": "plutolux",
+            "amount": 1
+          }
+        ]
+      },
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "cryogel",
+          "amount": "0.03"
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 150
+      },
+    {
+        "item": "aerogel",
+        "amount": 50
+     },
+     {
+        "item": "silicon",
+        "amount": 80
+     },
+     {
+        "item": "chromium",
+        "amount": 40
+     },
+     {
+        "item": "corundum",
+        "amount": 40
+     },
+     {
+        "item": "voltite",
+        "amount": 30
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 750
+      },
+    {
+        "item": "aerogel",
+        "amount": 250
+     },
+     {
+        "item": "silicon",
+        "amount": 400
+     },
+     {
+        "item": "chromium",
+        "amount": 200
+     },
+     {
+        "item": "corundum",
+        "amount": 200
+     },
+     {
+        "item": "voltite",
+        "amount": 150
+     }
+  ],
+  "itemCapacity": 20,
+  "liquidCapacity": 24,
+  "health": 640,
+  "hasLiquids": true,
+  "effectChance": 0.1,
+  "generateEffect": "generatespark",
+  "squareSprite": false,
+  "size": 3
+}

@@ -1,0 +1,19 @@
+"type": "Wall",
+"name": "Cobalt Wall",
+"description": "Protects structures from enemy projectiles.",
+"size": 1,
+"category": "defense",
+"requirements": [
+  "cobalt/6"
+]
+"health": 480,
+"buildTime": 1,
+"researchCost": [
+  "cobalt/80"
+  ],
+research: [
+  parent: core-glint
+  planet: scorivon
+  requiresUnlock: true
+  name: "Scorivon"
+  ]

@@ -1,0 +1,71 @@
+{
+  "type": "GenericCrafter",
+  "name": "Algae Shredder",
+  "description": "Shreds Algae to extract Phosphor and Oxygen.",
+  "size": 2,
+  "health": 220,
+  "squareSprite": false,
+  "ignoreLiquidFullness": true,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "cobalt/80",
+    "silicon/40",
+    "obsidium/100",
+    "chromium/20"
+  ],
+  "researchCost": [
+    "cobalt/400",
+    "silicon/200",
+    "obsidium/500",
+    "chromium/100"
+  ],
+  "craftEffect": "steam",
+  "research": "core-glint",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "oxygen",
+        "padding": 2
+      },
+      
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 3
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "craftTime": 240,
+  "ambientSound": "loopCutter",
+  "ambientSoundVolume": 1,
+  "hasLiquids": true,
+  "outputItem": "phosphor/6",
+  "outputLiquid": {
+    "liquid": "oxygen",
+    "amount": 0.2
+  },
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+          {
+            "item": "algae-clump",
+            "amount": 4
+          }
+        ]
+        }
+    },
+  "liquidCapacity": 50
+}
+

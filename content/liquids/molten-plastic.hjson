@@ -1,0 +1,10 @@
+type: Liquid
+explosiveness: 0
+flammability: 0.3
+heatCapacity: 0.5
+viscosity: 0.8
+temperature: 0.75
+color: ddf9ff
+name: "Molten Plastic"
+description: "Moldable Plastic. Cast or extrude to make useful solid parts."
+shownPlanets: ["scorivon"]

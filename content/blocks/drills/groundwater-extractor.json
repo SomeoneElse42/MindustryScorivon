@@ -1,0 +1,60 @@
+{
+  "type": "AttributeCrafter",
+  "name": "Groundwater Extractor",
+  "description": "Extracts Groundwater from aquifers underground.",
+  "details": "There is barely any liquid water left on Scorivon, most of it deep below the ground. The basalt on the surface shows that Scorivon used to be cold at some point, which rapidly changed with a large volcanic event that is still going all over the surface, leading to most of the water evaporating.",
+  "size": 2,
+  "health": 220,
+  "squareSprite": false,
+  "attribute": "groundwater",
+  "minEfficiency": 0.2,
+  "baseEfficiency": 0,
+  "maxBoost": 2,
+  "displayEfficiency": true,
+  "category": "production",
+  "requirements": [
+    "cobalt/40",
+    "silicon/20",
+    "chromium/40"
+  ],
+  "researchCost": [
+    "cobalt/200",
+    "silicon/100",
+    "chromium/200"
+  ],
+  "research": "core-glint",
+  "craftEffect": "steam",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "water",
+        "suffix": "-liquid"
+      },
+      
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 3
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "vapor",
+  "ambientSoundVolume": 1,
+  "hasLiquids": true,
+  "outputLiquid": "water/0.2",
+  "consumes": {
+    "power": 0.2
+  },
+  "liquidCapacity": 50
+}

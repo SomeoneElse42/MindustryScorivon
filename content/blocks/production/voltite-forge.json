@@ -1,0 +1,75 @@
+{
+    "type": "GenericCrafter",
+    "name": "Voltite Forge",
+    "description": "Produces Voltite, an alloy made from Electrum and Obsidium.",
+    "squareSprite": false,
+    "category": "crafting",
+    "outputItem": {
+        "item": "voltite",
+        "amount": 2
+    },
+    "craftTime": 120,
+    "ambientSound": "loopSmelter",
+    "ambientSoundVolume": 0.05,
+    "size": 2,
+    "health": 520,
+    "consumes": {
+        "power": 0.5,
+        "items": {
+            "items": [
+                {
+                    "item": "electrum",
+                    "amount": 2
+                  },
+                  {
+                    "item": "obsidium",
+                    "amount": 1
+                  }
+            ]
+        }
+    },
+    "itemCapacity": 20,
+    "requirements": [
+        {
+            "item": "chromium",
+            "amount": 5
+          },
+        {
+            "item": "obsidium",
+            "amount": 20
+         },
+         {
+            "item": "silicon",
+            "amount": 10
+         }
+    ],
+    "researchCost":[
+        {
+            "item": "chromium",
+            "amount": 25
+          },
+        {
+            "item": "obsidium",
+            "amount": 100
+         },
+         {
+            "item": "silicon",
+            "amount": 50
+         }
+    ],
+
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawDefault" 
+        },
+        
+        {
+          "type": "DrawCrucibleFlame",
+          "midColor": "8f00ff",
+          "flameColor": "ffed74"
+        }
+      ]
+    }
+} 

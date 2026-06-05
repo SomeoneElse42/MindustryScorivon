@@ -1,0 +1,6 @@
+type: RainWeather
+name: Acid Rain
+status: light-corroded
+color: 67d200
+liquid: acid
+density: 3000

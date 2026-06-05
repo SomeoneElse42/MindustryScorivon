@@ -1,0 +1,11 @@
+{
+"name": "Electrum",
+  "description": "A charged mixture of gold and silver.",
+  "color": "ffed74", 
+  "hardness": 4,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0.5,
+  "shownPlanets": ["scorivon"]
+}

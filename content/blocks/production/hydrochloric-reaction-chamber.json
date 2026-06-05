@@ -1,0 +1,87 @@
+{
+  "type": "GenericCrafter",
+  "name": "Hydrochloric Reaction Chamber",
+  "description": "Synthesizes acid from hydrogen and chlorine.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "acid",
+    "amount": 0.6
+  },
+  "size": 3,
+  "hasLiquids": "true",
+  "health": 300,
+  "craftTime": 60,
+  "consumes": {
+    "power": 7,
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "hydrogen",
+              "amount": 0.3
+            },
+            {
+              "liquid": "chlorine",
+              "amount": 0.3
+            }
+          ]
+        }
+  },
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 20
+      },
+    {
+        "item": "plastic-sheet",
+        "amount": 20
+      },
+    {
+        "item": "chromium",
+        "amount": 15
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 100
+      },
+    {
+        "item": "plastic-sheet",
+        "amount": 100
+      },
+    {
+        "item": "chromium",
+        "amount": 75
+     }
+  ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+        
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "acid",
+        "suffix": "-liquid"
+      },
+      {
+        "type": "DrawBubbles",
+        "color": "b0ff65",
+        "sides": 12,
+        "recurrence": 3,
+        "spread": 6,
+        "radius": 1.5,
+        "amount": 20
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

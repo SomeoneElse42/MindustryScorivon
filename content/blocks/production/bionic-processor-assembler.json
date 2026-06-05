@@ -1,0 +1,116 @@
+{
+    "type": "GenericCrafter",
+    "name": "Bionic Processor Assembler",
+    "description": "Assembles bionic processors that combine the processing power of phosphot algae and silicon semiconductors.",
+    "squareSprite": false,
+    "category": "crafting",
+    "outputItem": {
+        "item": "bionic-processor",
+        "amount": 3
+    },
+    "craftTime": 120,
+    "ambientSound": "loopElectricHum",
+    "ambientSoundVolume": 0.05,
+    "size": 3,
+    "health": 940,
+    "consumes": {
+        "power": 7,
+        "items": {
+            "items": [
+                {
+                    "item": "algae-clump",
+                    "amount": 2
+                  },
+                  {
+                    "item": "electrum",
+                    "amount": 2
+                  },
+                  {
+                    "item": "plastic-sheet",
+                    "amount": 2
+                  },
+                  {
+                    "item": "silicon",
+                    "amount": 2
+                  }
+            ]
+        }
+    },
+    "itemCapacity": 20,
+    "requirements": [
+      {
+        "item": "chromium",
+        "amount": 10
+      },
+      {
+        "item": "obsidium",
+        "amount": 20
+      },
+      {
+        "item": "silicon",
+        "amount": 10
+      },
+      {
+        "item": "aluminium",
+        "amount": 20
+      },
+      {
+        "item": "plastic-sheet",
+        "amount": 15
+      },
+      {
+        "item": "bionic-fiber-cable",
+        "amount": 10
+      }
+    ],
+    "researchCost":[
+      {
+        "item": "chromium",
+        "amount": 50
+      },
+      {
+        "item": "obsidium",
+        "amount": 100
+      },
+      {
+        "item": "silicon",
+        "amount": 50
+      },
+      {
+        "item": "aluminium",
+        "amount": 100
+      },
+      {
+        "item": "plastic-sheet",
+        "amount": 75
+      },
+      {
+        "item": "bionic-fiber-cable",
+        "amount": 50
+      }
+    ],
+
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawRegion",
+          "suffix": "-bottom" 
+        },
+        {
+          "type": "DrawArcSmelt",
+          "flameColor": "a5f06f",
+          "midColor": "c9faa6"
+        },
+        {
+          "type": "DrawDefault"
+        },
+        {
+          "type": "DrawGlowRegion",
+          "suffix": "-glow",
+          "color": "c9faa6",
+          "alpha": 0.6
+        }
+      ]
+    }
+} 

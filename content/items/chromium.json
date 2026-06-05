@@ -1,0 +1,11 @@
+{
+"name": "Chromium",
+  "description": "A reflective metal that can be used for power structures and lasers.",
+  "color": "f1c3ff", 
+  "hardness": 2,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}

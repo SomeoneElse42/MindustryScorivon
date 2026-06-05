@@ -1,0 +1,11 @@
+{
+"name": "Obsidium",
+  "description": "A hard, glass-like substance forming when slag cools rapidly.",
+  "color": "29003c", 
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}
