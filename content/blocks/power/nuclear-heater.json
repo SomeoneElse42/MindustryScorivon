@@ -76,9 +76,9 @@
           "type": "DrawHeatOutput"
         },
         {
-          "type": "DrawCrucibleFlame",
-          "flameColor": "ff8827ff",
-          "midColor": "7eb3ffff"
+          "type": "DrawGlowRegion",
+          "suffix": "-glow",
+          "color": "adf9ff"
         }
       ]
     }
