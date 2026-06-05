@@ -70,7 +70,7 @@
   "ambientSound": "loopFlux",
   "ambientSoundVolume": 1,
   "hasLiquids": true,
-  "outputLiquid": "power-flux/0.4 ",
+  "outputLiquid": "power-flux/0.3 ",
   "consumes": {
         "liquids": {
           "liquids": [
