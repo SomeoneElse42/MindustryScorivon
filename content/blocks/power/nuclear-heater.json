@@ -1,0 +1,85 @@
+{
+    "type": "HeatProducer",
+    "name": "Solid Heater",
+    "description": "Produces large amounts of heat using nuclear fission of plutonium.",
+    "squareSprite": false,
+    "category": "power",
+    "heatOutput": 15,
+    "craftTime": 60,
+    "ambientSound": "loopThoriumReactor",
+    "ambientSoundVolume": 0.05,
+    "size": 2,
+    "health": 520,
+    "consumes": {
+      "items": {
+        "items": [
+          {
+            "item": "plutonium",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "itemCapacity": 20,
+    "requirements": [
+          {
+            "item": "aluminium",
+            "amount": 10
+          },
+          {
+            "item": "aerogel",
+            "amount": 20
+          },
+          {
+            "item": "obsidium",
+            "amount": 20
+         },
+          {
+            "item": "corumdum",
+            "amount": 10
+          },
+          {
+            "item": "silicon",
+            "amount": 10
+          }
+    ],
+    "researchCost": [
+      {
+        "item": "aluminium",
+        "amount": 50
+      },
+      {
+        "item": "aerogel",
+        "amount": 100
+      },
+      {
+        "item": "obsidium",
+        "amount": 100
+      },
+      {
+        "item": "corumdum",
+        "amount": 50
+      },
+      {
+        "item": "silicon",
+        "amount": 50
+      }
+    ],
+
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawDefault" 
+        },
+        {
+          "type": "DrawHeatOutput"
+        },
+        {
+          "type": "DrawCrucibleFlame",
+          "flameColor": "ff8827ff",
+          "midColor": "7eb3ffff"
+        }
+      ]
+    }
+} 
