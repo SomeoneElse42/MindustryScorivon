@@ -4,6 +4,7 @@ health: 120
 description: Long suspended pipeline that can transport liquids over much larger distances.
 arrowSpacing: 5
 range: 9
+liquidPressure: 20
 hasPower: false
 category: liquid
 research: pipeline

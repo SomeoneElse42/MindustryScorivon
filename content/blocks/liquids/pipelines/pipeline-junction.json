@@ -3,7 +3,7 @@
   "name": "Pipeline Junction",
   "description": "Acts as a junction for liquid pipelines.",
   "health": 120,
-  "liquidPressure": 10,
+  "liquidPressure": 20,
   "requirements": [
     {
       "item": "chromium",

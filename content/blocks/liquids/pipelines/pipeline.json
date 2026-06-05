@@ -3,7 +3,8 @@
   "name": "Pipeline",
   "description": "Moves liquids forward.",
   "health": 120,
-  "liquidPressure": 10,
+  "liquidPressure": 20,
+  "botColor": "431950",
   "requirements": [
     {
       "item": "chromium",

@@ -4,7 +4,7 @@ size: 2
 health: 300
 placeableLiquid: true
 liquidCapacity: 800
-liquidPressure: 10
+liquidPressure: 20
 squareSprite: false
 liquidPadding: 2
 
