@@ -1,10 +1,10 @@
 {
     "type": "HeatProducer",
-    "name": "Solid Heater",
+    "name": "Nuclear Heater",
     "description": "Produces large amounts of heat using nuclear fission of plutonium.",
     "squareSprite": false,
     "category": "power",
-    "heatOutput": 15,
+    "heatOutput": 75,
     "craftTime": 60,
     "ambientSound": "loopThoriumReactor",
     "ambientSoundVolume": 0.05,
