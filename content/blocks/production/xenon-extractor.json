@@ -36,8 +36,8 @@
           ]
         }
   },
-  "itemCapacity": 0,
-  "liquidCapacity": 60,
+  "itemCapacity": 15,
+  "liquidCapacity": 64,
   "requirements": [
       "temperite/150",
       "silicon/40",
