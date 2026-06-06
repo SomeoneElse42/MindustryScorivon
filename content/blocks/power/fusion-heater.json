@@ -45,7 +45,7 @@
       "drawers": [
         {
           "type": "DrawRegion",
-          "suffix": "-bottoms"
+          "suffix": "-bottom"
         },
         {
           "type": "DrawPlasma",
