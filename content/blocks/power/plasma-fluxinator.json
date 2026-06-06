@@ -1,33 +1,33 @@
 {
   "type": "HeatCrafter",
   "name": "Plasma Fluxinator",
-  "description": "Produces fluxinite. Requires extensive heating, compressed air and xenon.",
+  "description": "Produces Fluxinite. Requires extensive heating, compressed air and xenon.",
   "liquidPressure": 100,
   "size": 5,
   "health": 1260,
   "squareSprite": false,
   "category": "power",
   "requirements": [
-    "temperite/240",
-    "obsidium/120",
-    "neodymium/80",
-    "corundum/60",
+    "temperite/400",
+    "obsidium/160",
+    "neodymium/120",
+    "corundum/80",
     "plastic-sheet/160",
     "aerogel/40",
-    "silicon/120",
-    "bionic-fiber-cable/40",
-    "bionic-processor/20"
+    "silicon/160",
+    "bionic-fiber-cable/60",
+    "bionic-processor/40"
   ],
   "researchCost": [
-    "temperite/1200",
-    "obsidium/600",
-    "neodymium/400",
-    "corundum/300",
+    "temperite/2000",
+    "obsidium/800",
+    "neodymium/600",
+    "corundum/400",
     "plastic-sheet/800",
     "aerogel/200",
-    "silicon/600",
-    "bionic-fiber-cable/200",
-    "bionic-processor/100"
+    "silicon/800",
+    "bionic-fiber-cable/300",
+    "bionic-processor/200"
   ],
   "research": "nuclear-fluxinator",
   "drawer": {
@@ -87,7 +87,7 @@
           ]
         }
   },
-  "heatRequirement": 600,
+  "heatRequirement": 800,
   "overheatScale": 0.5,
   "maxEfficiency": 2,
 

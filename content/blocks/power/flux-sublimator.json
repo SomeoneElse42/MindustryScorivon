@@ -1,0 +1,72 @@
+{
+  "type": "GenericCrafter",
+  "name": "Flux Sublimator",
+  "description": "Sublimates Fluxinite to release Power Flux.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "power-flux",
+    "amount": 0.6
+  },
+  "ambientSound": "loopElectricHum",
+  "ambientSoundVolume": 0.08,
+  "size": 3,
+  "hasLiquids": true,
+  "health": 840,
+  "craftTime": 60,
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "fluxinite",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "itemCapacity": 0,
+  "liquidCapacity": 60,
+  "requirements": [
+      "aerogel/20",
+      "chromium/40",
+      "aluminium/60",
+      "plastic-sheet/120",
+      "obsidium/50",
+      "neodymium/40"
+    ],
+    "researchCost": [
+      "aerogel/100",
+      "chromium/200",
+      "aluminium/300",
+      "plastic-sheet/600",
+      "obsidium/250",
+      "neodymium/200"
+    ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "tritium",
+        "padding": 2
+      },
+
+      {
+        "type": "DrawArcSmelt",
+        "flameColor": "5cffb1",
+        "midColor": "b8ffe1"
+      },
+
+      {
+        "type": "DrawDefault"
+      },
+
+    ]
+  }
+}
