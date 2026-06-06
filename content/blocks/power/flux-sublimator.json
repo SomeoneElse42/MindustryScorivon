@@ -6,7 +6,7 @@
   "category": "power",
   "outputLiquid": {
     "liquid": "power-flux",
-    "amount": 0.6
+    "amount": 0.9
   },
   "ambientSound": "loopElectricHum",
   "ambientSoundVolume": 0.08,
