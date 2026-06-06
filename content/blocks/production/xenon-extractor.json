@@ -1,0 +1,85 @@
+{
+  "type": "GenericCrafter",
+  "name": "Xenon Extractor",
+  "description": "Extracts Xenon from Caldrine using Chloride.",
+  "squareSprite": false,
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "xenon",
+    "amount": 0.2
+  },
+  "ambientSound": "loopExtract",
+  "ambientSoundVolume": 0.05,
+  "size": 3,
+  "hasLiquids": true,
+  "health": 840,
+  "craftTime": 60,
+  "consumes": {
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "caldrine",
+              "amount": 0.4
+            },
+            {
+              "liquid": "power-flux",
+              "amount": 0.2
+            }
+          ]
+        },
+        "items": {
+          "items": [
+            {
+              "item": "chloride",
+              "amount": 1
+            }
+          ]
+        }
+  },
+  "itemCapacity": 0,
+  "liquidCapacity": 60,
+  "requirements": [
+      "temperite/150",
+      "silicon/40",
+      "chromium/40",
+      "neodymium/20",
+      "aluminium/120",
+      "plastic-sheet/160",
+      "obsidium/50"
+    ],
+    "researchCost": [
+      "temperite/750",
+      "silicon/200",
+      "chromium/200",
+      "neodymium/100",
+      "aluminium/300",
+      "plastic-sheet/800",
+      "obsidium/250"
+    ],
+  
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [ 
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "caldrine",
+        "padding": 2
+      },
+
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "xenon",
+        "padding": 2
+      },
+
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}
