@@ -71,6 +71,7 @@
   "ambientSoundVolume": 1,
   "hasLiquids": true,
   "outputItem": "fluxinite/4",
+  "itemCapacity": 80,
   "outputLiquid": "plasma/0.2 ",
   "consumes": {
         "liquids": {
