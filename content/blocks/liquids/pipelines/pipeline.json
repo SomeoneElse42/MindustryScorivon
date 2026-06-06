@@ -1,7 +1,8 @@
 {
   "type": "conduit",
   "name": "Pipeline",
-  "description": "Moves liquids forward.",
+  "description": "Moves liquids forward. Does not leak.",
+  "leaks": false,
   "health": 120,
   "liquidPressure": 20,
   "botColor": "431950",
