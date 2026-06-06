@@ -25,7 +25,7 @@
       ]
     }
   },
-  "liquidCapacity": 60,
+  "liquidCapacity": 1200,
   "requirements": [
       "aerogel/20",
       "chromium/40",
