@@ -1,0 +1,11 @@
+{
+"name": "[#5cffb1ff]Fluxinite",
+  "description": "Crystallized power flux. Can be sublimated to release its power.",
+  "color": "5cffb1",
+  "hardness": 2,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 5,
+  "shownPlanets": ["scorivon"]
+}

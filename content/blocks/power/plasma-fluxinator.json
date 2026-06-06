@@ -1,0 +1,107 @@
+{
+  "type": "HeatCrafter",
+  "name": "Plasma Fluxinator",
+  "description": "Produces fluxinite. Requires extensive heating, compressed air and xenon.",
+  "liquidPressure": 100,
+  "size": 5,
+  "health": 1260,
+  "squareSprite": false,
+  "category": "power",
+  "requirements": [
+    "temperite/240",
+    "obsidium/120",
+    "neodymium/80",
+    "corundum/60",
+    "plastic-sheet/160",
+    "aerogel/40",
+    "silicon/120",
+    "bionic-fiber-cable/40",
+    "bionic-processor/20"
+  ],
+  "researchCost": [
+    "temperite/1200",
+    "obsidium/600",
+    "neodymium/400",
+    "corundum/300",
+    "plastic-sheet/800",
+    "aerogel/200",
+    "silicon/600",
+    "bionic-fiber-cable/200",
+    "bionic-processor/100"
+  ],
+  "research": "nuclear-fluxinator",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "power-flux",
+        "padding": 2
+      },
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "e0c3ff"
+      },
+      {
+        "type": "DrawSoftParticles",
+        "color1": "ffff85ff",
+        "color2": "ffffcaff",
+        "region": "-bottom",
+        "alpha": 0.35,
+        "particleRad": 12,
+        "particleSize": 9,
+        "particleLife": 120,
+        "particles": 27
+      },
+      {
+        "type": "DrawHeatInput"
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopFlux",
+  "ambientSoundVolume": 1,
+  "hasLiquids": true,
+  "outputItem": "fluxinite/4",
+  "outputLiquid": "plasma/0.2 ",
+  "consumes": {
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "compressed-air",
+              "amount": 0.6
+            },
+            {
+              "liquid": "xenon",
+              "amount": 0.1
+            }
+          ]
+        }
+  },
+  "heatRequirement": 600,
+  "overheatScale": 0.5,
+  "maxEfficiency": 2,
+
+
+  "liquidCapacity": 1200,
+
+  "craftEffect":{
+    "type": "ParticleEffect",
+    "lifetime": 100,
+    "length": 35,
+    "baseLength": 4,
+    "sizeFrom": 0.5,
+    "sizeTo": 1,
+    "colorFrom": "ffff8560",
+    "colorTo": "ffffca00",
+    "particles": 15
+  }
+}
