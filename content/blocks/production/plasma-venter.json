@@ -1,0 +1,98 @@
+{
+  "type": "GenericCrafter",
+  "name": "Plasma Venter",
+  "description": "Vents plasma into the atmosphere.",
+  "details": "This machine is entirely poitnless. It does absolutely nothing, you can just dump it straight into the atmosphere with regular pipelines. I guess it looks kinda cool though.",
+  "squareSprite": false,
+  "category": "crafting",
+  "size": 2,
+  "hasLiquids": "true",
+  "ambientSound": "loopSteam",
+  "ambientSoundVolume": 0.05,
+  "health": 240,
+  "craftTime": 10,
+  "consumes": {
+        "liquids": {
+          "liquids": [
+            {
+              "liquid": "plasma",
+              "amount": 0.2
+            }
+          ]
+        }
+  },
+  "liquidCapacity": 120,
+  "requirements": [
+    {
+        "item": "obsidium",
+        "amount": 50
+      },
+      {
+        "item": "plastic-sheet",
+        "amount": 50
+      },
+    {
+        "item": "silicon",
+        "amount": 20
+     },
+    {
+        "item": "chromium",
+        "amount": 100
+    }
+  ],
+  "researchCost": [
+    {
+        "item": "obsidium",
+        "amount": 250
+      },
+      {
+        "item": "plastic-sheet",
+        "amount": 250
+      },
+    {
+        "item": "silicon",
+        "amount": 100
+     },
+    {
+        "item": "chromium",
+        "amount": 500
+    }
+  ],
+
+  "craftEffect": {
+    "type": "ParticleEffect",
+    "lifetime": 30,
+    "length": 35,
+    "baseLength": 4,
+    "sizeFrom": 3,
+    "sizeTo": 5,
+    "particles": 10,
+    "colorFrom": "cce3ff80",
+    "colorTo": "d2a9ff00",
+    "cone": 35,
+    "offset": 20,
+    "sizeInterp": "slope",
+  },
+
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "cce3ff"
+      },
+      {
+        "type": "DrawParticles",
+        "reverse": true,
+        "particleLife": 30,
+        "particleSize": 2,
+        "color": "cce3ffff",
+        "particles": 8
+      }
+    ]
+  }
+}

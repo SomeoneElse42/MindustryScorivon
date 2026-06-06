@@ -1,7 +1,7 @@
 {
   "type": "HeatCrafter",
   "name": "Plasma Fluxinator",
-  "description": "Produces Fluxinite. Requires extensive heating, compressed air and xenon.",
+  "description": "Produces Fluxinite. Requires extensive heating, compressed air and xenon. Produces plasma as a byproduct.",
   "liquidPressure": 100,
   "size": 5,
   "health": 1260,

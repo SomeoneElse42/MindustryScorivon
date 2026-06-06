@@ -19,7 +19,7 @@ effect:{
             colorTo: 7cb2ff00
             cone: 35
             offset: 20
-						sizeInterp: slope
+			sizeInterp: slope
         },
 				{
             type: ParticleEffect
@@ -32,7 +32,7 @@ effect:{
             colorTo: 7cb2ff00
             cone: 35
             offset: 20
-						sizeInterp: slope
+			sizeInterp: slope
         }
     ]
 }
