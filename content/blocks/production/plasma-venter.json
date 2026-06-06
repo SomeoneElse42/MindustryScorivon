@@ -2,6 +2,7 @@
   "type": "GenericCrafter",
   "name": "Plasma Venter",
   "description": "Vents plasma into the atmosphere.",
+  "details": "This is entirely pointless, it just looks cool I guess. You can also just release the plasma into the atmosphere.",
   "squareSprite": false,
   "category": "crafting",
   "size": 2,
