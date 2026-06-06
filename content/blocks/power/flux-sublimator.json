@@ -53,7 +53,7 @@
 
       {
         "type": "DrawLiquidTile",
-        "drawLiquid": "tritium",
+        "drawLiquid": "power-flux",
         "padding": 2
       },
 
