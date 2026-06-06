@@ -8,7 +8,7 @@
     "craftTime": 60,
     "ambientSound": "loopThoriumReactor",
     "ambientSoundVolume": 0.05,
-    "size": 5,
+    "size": 3,
     "health": 820,
     "liquidCapacity": 24,
     "consumes": {
