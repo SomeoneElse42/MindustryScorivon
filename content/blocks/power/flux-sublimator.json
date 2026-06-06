@@ -25,7 +25,6 @@
       ]
     }
   },
-  "itemCapacity": 0,
   "liquidCapacity": 60,
   "requirements": [
       "aerogel/20",
