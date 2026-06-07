@@ -9,5 +9,5 @@ name: "[#92ffcbff]Power Flux"
 gas: true
 coolant: false
 description: "A strange substance with extremely high, concentrated energy. Used as an alternative power source."
-details: "In order to keep up with the extreme power demand of some machines, electricity is not sufficient. Power flux is significantly more concentrated and efficient."
+details: "In order to keep up with the extreme power demand of some machines, electricity is not sufficient. Power flux is significantly more concentrated and efficient.\n\nThe state of matter is undescribable. It's not a gas, nor a plasma. Is this even matter, or just pure, concentrated energy?"
 shownPlanets: ["scorivon"]
