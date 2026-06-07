@@ -1,0 +1,11 @@
+{
+"name": "Magnetic Cell",
+  "description": "Magnetic storage cell for transporting uncrystallized power flux.",
+  "color": "435457",
+  "hardness": 2,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["scorivon"]
+}
