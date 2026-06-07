@@ -6,7 +6,7 @@
   "category": "crafting",
   "outputLiquid": {
     "liquid": "tritium",
-    "amount": 0.2
+    "amount": 0.3
   },
   "ambientSound": "loopExtract",
   "ambientSoundVolume": 0.05,

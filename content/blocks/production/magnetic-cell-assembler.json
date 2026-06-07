@@ -1,0 +1,105 @@
+{
+    "type": "GenericCrafter",
+    "name": "Magnetic Cell Assembler",
+    "description": "Assembles magnetic cells for packaging power flux.",
+    "squareSprite": false,
+    "category": "crafting",
+    "outputItem": {
+        "item": "magnetic-cell",
+        "amount": 1
+    },
+    "craftTime": 60,
+    "ambientSound": "loopHum",
+    "ambientSoundVolume": 0.05,
+    "size": 2,
+    "health": 740,
+    "consumes": {
+        "power": 5,
+        "items": {
+            "items": [
+                {
+                    "item": "bionic-fiber-cable",
+                    "amount": 1
+                  },
+                  {
+                    "item": "plastic-sheet",
+                    "amount": 1
+                  },
+                  {
+                    "item": "neodymium",
+                    "amount": 1
+                  }
+            ]
+        }
+    },
+    "itemCapacity": 20,
+    "requirements": [
+        {
+            "item": "chromium",
+            "amount": 5
+          },
+        {
+            "item": "obsidium",
+            "amount": 20
+         },
+         {
+            "item": "aluminium",
+            "amount": 20
+         },
+         {
+            "item": "silicon",
+            "amount": 10
+         }
+    ],
+    "researchCost":[
+        {
+            "item": "chromium",
+            "amount": 25
+          },
+        {
+            "item": "obsidium",
+            "amount": 100
+         },
+         {
+            "item": "aluminium",
+            "amount": 100
+         },
+         {
+            "item": "silicon",
+            "amount": 50
+         }
+    ],
+
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [ 
+        {
+          "type": "DrawRegion",
+          "suffix": "-bottom" 
+        },
+        {
+          "type": "DrawRegion" ,
+          "suffix": "-mid"
+        },
+        {
+          "type": "DrawArcSmelt",
+          "flameColor": "96e8f9",
+          "midColor": "ddf9ff"
+        },
+        {
+          "type": "DrawGlowRegion",
+          "suffix": "-glow",
+          "color": "ddf9ff",
+          "alpha": 0.75
+        },
+        {
+          "type": "DrawBlurSpin",
+          "suffix": "-rotator",
+          "rotateSpeed": 2
+        },
+        {
+          "type": "DrawDefault" 
+        }
+      ]
+    }
+} 
