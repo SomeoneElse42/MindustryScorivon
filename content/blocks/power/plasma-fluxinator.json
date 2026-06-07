@@ -16,7 +16,8 @@
     "aerogel/40",
     "silicon/160",
     "bionic-fiber-cable/60",
-    "bionic-processor/40"
+    "bionic-processor/40",
+    "voltite/80"
   ],
   "researchCost": [
     "temperite/2000",
@@ -27,7 +28,8 @@
     "aerogel/200",
     "silicon/800",
     "bionic-fiber-cable/300",
-    "bionic-processor/200"
+    "bionic-processor/200",
+    "voltite/400"
   ],
   "research": "nuclear-fluxinator",
   "drawer": {
