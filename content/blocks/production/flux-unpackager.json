@@ -5,7 +5,7 @@
   "squareSprite": false,
   "category": "power",
   "outputItem": {
-        "item": "magnetic-flux-cell",
+        "item": "magnetic-cell",
         "amount": 1
     },
   "outputLiquid": "power-flux/0.15 ",
