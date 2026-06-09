@@ -8,7 +8,7 @@
         "item": "magnetic-cell",
         "amount": 1
     },
-  "outputLiquid": "power-flux/0.15 ",
+  "outputLiquid": "power-flux/0.3 ",
   "size": 2,
   "hasLiquids": "true",
   "ambientSound": "loopExtract",

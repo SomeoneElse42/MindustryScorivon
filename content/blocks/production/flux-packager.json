@@ -27,7 +27,7 @@
           "liquids": [
             {
               "liquid": "power-flux",
-              "amount": 0.15
+              "amount": 0.3
             }
           ]
         }
