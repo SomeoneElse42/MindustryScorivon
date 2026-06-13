@@ -15,15 +15,12 @@
   "health": 840,
   "craftTime": 60,
   "consumes": {
+    "power": 21,
         "liquids": {
           "liquids": [
             {
               "liquid": "caldrine",
               "amount": 0.4
-            },
-            {
-              "liquid": "power-flux",
-              "amount": 0.2
             }
           ]
         },

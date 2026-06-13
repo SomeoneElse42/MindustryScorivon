@@ -15,15 +15,12 @@
   "health": 840,
   "craftTime": 60,
   "consumes": {
+    "power": 19.2,
         "liquids": {
           "liquids": [
             {
               "liquid": "hydrogen",
               "amount": 0.4
-            },
-            {
-              "liquid": "power-flux",
-              "amount": 0.05
             },
             {
               "liquid": "compressed-air",
