@@ -1,7 +1,7 @@
 {
     "type": "GenericCrafter",
     "name": "Magnetic Cell Assembler",
-    "description": "Assembles magnetic cells for packaging power flux.",
+    "description": "Assembles magnetic cells for packaging unstable or reactive materials.",
     "squareSprite": false,
     "category": "crafting",
     "outputItem": {
