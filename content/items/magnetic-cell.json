@@ -1,6 +1,6 @@
 {
 "name": "Magnetic Cell",
-  "description": "Magnetic storage cell for transporting uncrystallized power flux.",
+  "description": "Magnetic storage cell for containing highly reactive or unstable materials.",
   "color": "435457",
   "hardness": 2,
   "flammability": 0,
